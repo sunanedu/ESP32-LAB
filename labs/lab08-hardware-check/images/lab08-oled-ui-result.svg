@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1150" viewBox="0 0 1600 1150" role="img">
+<title>LAB 08.6 | ตัวอย่าง UI ของ OLED</title><desc>ภาพจำลอง layout จากโค้ด ไม่ใช่ภาพถ่ายผลทดสอบ • ค่า uptime มาจากเวลา MCU ไม่ใช่อุณหภูมิ</desc>
+<rect width="1600" height="1150" fill="#fff"/>
+<g font-family="Tahoma,Segoe UI,sans-serif">
+<rect x="40" y="30" width="1520" height="132" rx="18" fill="#eef5fb" stroke="none" stroke-width="2"/>
+<text x="75" y="87" font-size="36" fill="#17283f" text-anchor="start" font-weight="bold">LAB 08.6 | ตัวอย่าง UI ของ OLED</text>
+<text x="75" y="132" font-size="23" fill="#52647a" text-anchor="start" font-weight="normal">ภาพจำลอง layout จากโค้ด ไม่ใช่ภาพถ่ายผลทดสอบ • ค่า uptime มาจากเวลา MCU ไม่ใช่อุณหภูมิ</text>
+<text x="65" y="1118" font-size="23" fill="#52647a" text-anchor="start" font-weight="normal">อ่านชื่อ GPIO/สกรีนบนอุปกรณ์จริง • ภาพเป็นผังการเชื่อมต่อ ไม่ใช่ตำแหน่งขาบน header</text>
+<rect x="65" y="230" width="600" height="630" rx="12" fill="#f6f9fc" stroke="#bccbdb" stroke-width="2"/>
+<text x="87" y="272" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">ข้อความเริ่มต้น</text>
+<text x="87" y="306" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">แสดงก่อนเข้าสู่ UI เป็นเวลา 3 วินาที</text>
+<rect x="95" y="360" width="540" height="290" rx="5" fill="#101b27" stroke="#23344a" stroke-width="2"/>
+<text x="120" y="405" font-size="30" fill="#c6f1ff" text-anchor="start" font-weight="normal">OLED READY</text>
+<text x="120" y="470" font-size="30" fill="#c6f1ff" text-anchor="start" font-weight="normal">SSD1306 128x64</text>
+<text x="120" y="535" font-size="30" fill="#c6f1ff" text-anchor="start" font-weight="normal">Address: 0x3C</text>
+<text x="120" y="600" font-size="30" fill="#c6f1ff" text-anchor="start" font-weight="normal">UI starts in 3 s</text>
+<rect x="700" y="230" width="835" height="630" rx="12" fill="#f6f9fc" stroke="#bccbdb" stroke-width="2"/>
+<text x="722" y="272" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">UI หลังครบ 3 วินาที</text>
+<text x="722" y="306" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">ชื่อ / uptime เปลี่ยนทุกวินาที / แถบ DEMO</text>
+<g transform="translate(730 350) scale(6)">
+<rect x="0" y="0" width="128" height="64" fill="#101b27" stroke="#c6f1ff" stroke-width="0.3"/>
+<text x="4" y="11" font-size="7" fill="#c6f1ff" text-anchor="start" font-weight="normal">DEVICE CHECK</text>
+<polyline points="1,14 126,14" fill="none" stroke="#c6f1ff" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="4" y="25" font-size="7" fill="#c6f1ff" text-anchor="start" font-weight="normal">Name: S3_OLED</text>
+<text x="4" y="45" font-size="14" fill="#c6f1ff" text-anchor="start" font-weight="normal">42 s</text>
+<text x="4" y="56" font-size="7" fill="#c6f1ff" text-anchor="start" font-weight="normal">RUN  DEMO 42%</text>
+<rect x="4" y="59" width="120" height="3" fill="#101b27" stroke="#c6f1ff" stroke-width="0.2"/>
+<rect x="5" y="60" width="49" height="1" fill="#c6f1ff"/>
+</g>
+<text x="735" y="795" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">แถบ DEMO วน 0–100% เพื่อสังเกตการวาดใหม่</text>
+<rect x="65" y="945" width="1470" height="140" rx="12" fill="#f6f9fc" stroke="#dce6ef" stroke-width="2"/>
+<text x="88" y="980" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">หัวข้อและชื่ออยู่ตำแหน่งคงที่; ค่าและแถบเปลี่ยนโดยใช้ millis() กำหนดรอบ</text>
+<text x="88" y="1016" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">clearDisplay() ล้าง buffer → วาดชื่อ/ค่าใหม่ → display() ส่งภาพไปจอ</text>
+<text x="88" y="1052" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">ตัวอย่างใช้ font ASCII; ให้โจทย์จัดหน้า UI ใหม่แก่ผู้เรียนโดยไม่แจกโค้ดโจทย์ต่อยอด</text>
+</g></svg>

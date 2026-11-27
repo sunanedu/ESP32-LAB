@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1150" viewBox="0 0 1600 1150" role="img">
+<title>LAB 04 | ตัวอย่างผลลัพธ์ OLED</title><desc>ภาพจำลองที่สร้างจากรูปแบบผลลัพธ์ในโค้ด • ไม่ใช่ภาพถ่ายจอหรือหลักฐานทดสอบฮาร์ดแวร์</desc>
+<rect width="1600" height="1150" fill="#fff"/>
+<g font-family="Tahoma,Segoe UI,sans-serif">
+<rect x="40" y="30" width="1520" height="132" rx="18" fill="#eef5fb" stroke="none" stroke-width="2"/>
+<text x="75" y="87" font-size="36" fill="#17283f" text-anchor="start" font-weight="bold">LAB 04 | ตัวอย่างผลลัพธ์ OLED</text>
+<text x="75" y="132" font-size="23" fill="#52647a" text-anchor="start" font-weight="normal">ภาพจำลองที่สร้างจากรูปแบบผลลัพธ์ในโค้ด • ไม่ใช่ภาพถ่ายจอหรือหลักฐานทดสอบฮาร์ดแวร์</text>
+<text x="65" y="1118" font-size="23" fill="#52647a" text-anchor="start" font-weight="normal">อ่านชื่อ GPIO/สกรีนบนอุปกรณ์จริง • ภาพเป็นผังการเชื่อมต่อ ไม่ใช่ตำแหน่งขาบน header</text>
+<rect x="65" y="235" width="700" height="640" rx="12" fill="#f6f9fc" stroke="#bccbdb" stroke-width="2"/>
+<text x="87" y="277" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">4.2 ทดสอบจอ</text>
+<text x="87" y="311" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">128×64 pixel / มุมซ้ายบน (0,0)</text>
+<rect x="800" y="235" width="735" height="640" rx="12" fill="#f6f9fc" stroke="#bccbdb" stroke-width="2"/>
+<text x="822" y="277" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">4.6 รวมสามโมดูล</text>
+<text x="822" y="311" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">กดปุ่มหนึ่งครั้ง → เปลี่ยนสถานะหนึ่งขั้น</text>
+<rect x="100" y="365" width="630" height="315" rx="4" fill="#101b27" stroke="#17283f" stroke-width="2"/>
+<rect x="835" y="365" width="630" height="315" rx="4" fill="#101b27" stroke="#17283f" stroke-width="2"/>
+<text x="125" y="420" font-size="32" fill="#d3f5ff" text-anchor="start" font-weight="normal">Lab04 OLED test</text>
+<text x="125" y="485" font-size="32" fill="#d3f5ff" text-anchor="start" font-weight="normal">Hello!</text>
+<text x="125" y="550" font-size="32" fill="#d3f5ff" text-anchor="start" font-weight="normal">Uptime: 0 s</text>
+<text x="125" y="615" font-size="32" fill="#d3f5ff" text-anchor="start" font-weight="normal">Frame: 1</text>
+<text x="860" y="420" font-size="32" fill="#d3f5ff" text-anchor="start" font-weight="normal">Lab04 Traffic</text>
+<text x="860" y="485" font-size="32" fill="#d3f5ff" text-anchor="start" font-weight="normal">GREEN</text>
+<text x="860" y="615" font-size="32" fill="#d3f5ff" text-anchor="start" font-weight="normal">Presses: 3</text>
+<text x="100" y="758" font-size="26" fill="#17283f" text-anchor="start" font-weight="normal">clearDisplay() ล้าง buffer ใน RAM</text>
+<text x="100" y="812" font-size="26" fill="#17283f" text-anchor="start" font-weight="normal">display() ส่ง buffer ไปให้จอแสดงผล</text>
+<text x="835" y="758" font-size="26" fill="#17283f" text-anchor="start" font-weight="normal">OFF → RED → YELLOW → GREEN → OFF</text>
+<text x="835" y="812" font-size="24" fill="#17283f" text-anchor="start" font-weight="normal">กดค้างไม่เพิ่มซ้ำจนกว่าจะปล่อยแล้วกดใหม่</text>
+<rect x="65" y="945" width="1470" height="140" rx="12" fill="#f6f9fc" stroke="#dce6ef" stroke-width="2"/>
+<text x="88" y="980" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">ข้อความ/ตำแหน่งเป็นตัวอย่างคาดหวัง ต้องเทียบผล Serial กับจอจริงเมื่อทดสอบ</text>
+<text x="88" y="1016" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">ASCII บนจอใช้ font เริ่มต้นของ Adafruit GFX; ยังไม่ได้ติดตั้ง font ภาษาไทย</text>
+<text x="88" y="1052" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">จอตอบ ACK แต่ภาพไม่ถูก: ตรวจ driver/ความละเอียด/address ไม่สรุปจากขนาดจอประมาณ 1 นิ้ว</text>
+</g></svg>

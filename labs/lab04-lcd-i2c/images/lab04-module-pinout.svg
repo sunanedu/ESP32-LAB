@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1150" viewBox="0 0 1600 1150" role="img">
+<title>LAB 04 | อ่านชื่อพินก่อนต่อสาย</title><desc>ภาพเชิงอธิบายจากสกรีนที่ผู้ใช้แจ้ง • ตำแหน่งขา/สี PCB/ตัวต้านทานต้องตรวจโมดูลจริง</desc>
+<rect width="1600" height="1150" fill="#fff"/>
+<g font-family="Tahoma,Segoe UI,sans-serif">
+<rect x="40" y="30" width="1520" height="132" rx="18" fill="#eef5fb" stroke="none" stroke-width="2"/>
+<text x="75" y="87" font-size="36" fill="#17283f" text-anchor="start" font-weight="bold">LAB 04 | อ่านชื่อพินก่อนต่อสาย</text>
+<text x="75" y="132" font-size="23" fill="#52647a" text-anchor="start" font-weight="normal">ภาพเชิงอธิบายจากสกรีนที่ผู้ใช้แจ้ง • ตำแหน่งขา/สี PCB/ตัวต้านทานต้องตรวจโมดูลจริง</text>
+<text x="65" y="1118" font-size="23" fill="#52647a" text-anchor="start" font-weight="normal">อ่านชื่อ GPIO/สกรีนบนอุปกรณ์จริง • ภาพเป็นผังการเชื่อมต่อ ไม่ใช่ตำแหน่งขาบน header</text>
+<rect x="65" y="230" width="460" height="630" rx="12" fill="#f4f8fc" stroke="#bccbdb" stroke-width="2"/>
+<text x="87" y="272" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">OLED I2C 4 พิน</text>
+<text x="87" y="306" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">GND / VCC / SCL / SDA</text>
+<rect x="570" y="230" width="460" height="630" rx="12" fill="#f4f8fc" stroke="#bccbdb" stroke-width="2"/>
+<text x="592" y="272" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">โมดูลปุ่มกด</text>
+<text x="592" y="306" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">GND / VCC / OUT</text>
+<rect x="1075" y="230" width="460" height="630" rx="12" fill="#f4f8fc" stroke="#bccbdb" stroke-width="2"/>
+<text x="1097" y="272" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">โมดูลไฟ 8 mm</text>
+<text x="1097" y="306" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">VCC / RD / YL / GY</text>
+<rect x="100" y="360" width="390" height="190" rx="5" fill="#153c6a" stroke="#274c6a" stroke-width="2"/>
+<text x="295" y="430" font-size="31" fill="#fff" text-anchor="middle" font-weight="normal">OLED 128 x 64</text>
+<text x="295" y="485" font-size="25" fill="#b4eaff" text-anchor="middle" font-weight="normal">SSD1306? ตรวจรุ่น</text>
+<text x="100" y="620" font-size="25" fill="#17283f" text-anchor="start" font-weight="normal">GND → ESP32 GND</text>
+<text x="100" y="670" font-size="25" fill="#17283f" text-anchor="start" font-weight="normal">VCC → ESP32 3V3</text>
+<text x="100" y="720" font-size="25" fill="#17283f" text-anchor="start" font-weight="normal">SCL → GPIO9</text>
+<text x="100" y="770" font-size="25" fill="#17283f" text-anchor="start" font-weight="normal">SDA → GPIO8</text>
+<rect x="675" y="360" width="250" height="190" rx="6" fill="#3e7658" stroke="#29503b" stroke-width="2"/>
+<circle cx="800" cy="455" r="60" fill="#344252" stroke="#17283f" stroke-width="4"/>
+<text x="605" y="620" font-size="25" fill="#17283f" text-anchor="start" font-weight="normal">GND → ESP32 GND</text>
+<text x="605" y="670" font-size="25" fill="#17283f" text-anchor="start" font-weight="normal">VCC → ESP32 3V3</text>
+<text x="605" y="720" font-size="25" fill="#17283f" text-anchor="start" font-weight="normal">OUT → GPIO18</text>
+<text x="605" y="790" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">R bias มีอยู่ในโมดูลแล้ว</text>
+<circle cx="1160" cy="455" r="45" fill="#d83a42" stroke="#17283f" stroke-width="3"/>
+<circle cx="1305" cy="455" r="45" fill="#e9bf27" stroke="#17283f" stroke-width="3"/>
+<circle cx="1450" cy="455" r="45" fill="#008575" stroke="#17283f" stroke-width="3"/>
+<text x="1110" y="620" font-size="25" fill="#17283f" text-anchor="start" font-weight="normal">VCC → ESP32 3V3</text>
+<text x="1110" y="670" font-size="25" fill="#17283f" text-anchor="start" font-weight="normal">RD → GPIO10 (แดง)</text>
+<text x="1110" y="720" font-size="25" fill="#17283f" text-anchor="start" font-weight="normal">YL → GPIO11 (เหลือง)</text>
+<text x="1110" y="770" font-size="25" fill="#17283f" text-anchor="start" font-weight="normal">GY → GPIO12 (เขียว)</text>
+<rect x="65" y="945" width="1470" height="140" rx="12" fill="#f6f9fc" stroke="#dce6ef" stroke-width="2"/>
+<text x="88" y="980" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">ไฟ RD/YL/GY คือแดง–เหลือง–เขียว ไม่ใช่ชุด R/G/B ที่มีสีน้ำเงิน</text>
+<text x="88" y="1016" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">common VCC ใช้ LOW เปิดเป็น baseline; ต้องมี R จำกัดกระแสในโมดูลและรองรับการขับด้วย GPIO</text>
+<text x="88" y="1052" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">ทั้งสามโมดูลใช้รุ่นรองรับ 3.3V • ลำดับพินจริงให้ยึดตัวอักษรสกรีน ไม่เดาจากภาพนี้</text>
+</g></svg>

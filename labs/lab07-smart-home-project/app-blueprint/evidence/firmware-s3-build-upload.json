@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-26",
+  "core": "3.3.13",
+  "arduinoCli": "1.6.0",
+  "builds": [
+    {
+      "sketch": "lab07_oled_test",
+      "target": "esp32",
+      "result": "passed",
+      "warnings": "all",
+      "programBytes": 315277
+    },
+    {
+      "sketch": "lab07_dht11_test",
+      "target": "esp32",
+      "result": "passed",
+      "warnings": "all",
+      "programBytes": 281173
+    },
+    {
+      "sketch": "lab07_smart_home",
+      "target": "esp32",
+      "result": "passed",
+      "warnings": "all",
+      "programBytes": 966193
+    },
+    {
+      "sketch": "lab07_oled_test",
+      "target": "esp32s3",
+      "result": "passed",
+      "warnings": "all",
+      "programBytes": 344990
+    },
+    {
+      "sketch": "lab07_dht11_test",
+      "target": "esp32s3",
+      "result": "passed",
+      "warnings": "all",
+      "programBytes": 310454
+    },
+    {
+      "sketch": "lab07_smart_home",
+      "target": "esp32s3",
+      "result": "passed",
+      "warnings": "all",
+      "programBytes": 943969
+    }
+  ],
+  "physicalUploads": [
+    {
+      "sketch": "lab01_chip_info",
+      "target": "esp32s3",
+      "result": "passed",
+      "flashDataVerified": true
+    },
+    {
+      "sketch": "lab07_oled_test",
+      "target": "esp32s3",
+      "result": "passed",
+      "flashDataVerified": true
+    },
+    {
+      "sketch": "lab07_dht11_test",
+      "target": "esp32s3",
+      "result": "passed",
+      "flashDataVerified": true
+    },
+    {
+      "sketch": "lab07_smart_home",
+      "target": "esp32s3",
+      "result": "passed",
+      "flashDataVerified": true
+    }
+  ]
+}

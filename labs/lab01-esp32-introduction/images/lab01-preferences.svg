@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Arduino IDE Preferences</title><desc id="desc">หน้าจอจำลอง Arduino IDE Preferences แสดงช่อง Additional boards manager URLs และ URL ของ Arduino ESP32</desc>
+  <defs><style>.t{font-family:'Segoe UI','Noto Sans Thai',sans-serif;fill:#1f2933}.h{font-size:30px;font-weight:700}.m{font-size:21px}.s{font-size:17px}.ui{fill:#fff;stroke:#9fb3c8;stroke-width:2}</style></defs>
+  <rect width="1200" height="675" fill="#edf6f7"/><text x="600" y="48" text-anchor="middle" class="t h">Arduino IDE → File → Preferences</text>
+  <rect x="115" y="78" width="970" height="510" rx="10" class="ui"/><rect x="115" y="78" width="970" height="48" rx="10" fill="#008184"/><text x="145" y="109" fill="white" class="m">Preferences</text>
+  <text x="160" y="170" class="t m">Settings</text><text x="160" y="215" class="t s">Language</text><rect x="410" y="190" width="300" height="40" rx="5" class="ui"/><text x="430" y="217" class="t s">English</text>
+  <text x="160" y="275" class="t s">Editor font size</text><rect x="410" y="250" width="120" height="40" rx="5" class="ui"/><text x="430" y="277" class="t s">14</text>
+  <rect x="145" y="325" width="910" height="150" rx="8" fill="#e6fffa" stroke="#008184" stroke-width="3"/><text x="165" y="360" class="t m">Additional boards manager URLs</text><rect x="165" y="382" width="870" height="58" rx="5" fill="#fff" stroke="#486581" stroke-width="2"/><text x="184" y="417" class="t s">https://espressif.github.io/arduino-esp32/package_esp32_index.json</text>
+  <rect x="875" y="510" width="80" height="42" rx="6" fill="#008184"/><text x="915" y="538" text-anchor="middle" fill="white" class="s">OK</text><rect x="965" y="510" width="90" height="42" rx="6" fill="#e4e7eb"/><text x="1010" y="538" text-anchor="middle" class="t s">Cancel</text>
+  <text x="600" y="635" text-anchor="middle" class="t m">วาง Stable release URL ให้ครบ จากนั้นกด OK</text>
+</svg>

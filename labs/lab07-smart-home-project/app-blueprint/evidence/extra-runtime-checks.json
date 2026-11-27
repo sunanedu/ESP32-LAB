@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-26",
+  "scope": "Standalone Android APK + EMQX public WSS + MQTT protocol simulator; not physical ESP32",
+  "results": [
+    {"case": "all-off", "result": "passed", "observed": "Simulator received OFF on relay/1/set and relay/2/set; Android reported both OFF"},
+    {"case": "sensor-invalid", "result": "passed", "observed": "Both sensor cards displayed unavailable and em dash while ESP32 presence stayed online"},
+    {"case": "small-layout", "result": "passed", "observed": "Dashboard inspected at 360dp / font scale 1.3; no horizontal overflow"}
+  ]
+}

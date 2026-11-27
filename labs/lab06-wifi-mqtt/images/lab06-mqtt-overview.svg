@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470">
+  <rect width="1000" height="470" fill="#ffffff"/>
+  <text x="500" y="45" text-anchor="middle" font-family="sans-serif" font-size="29" font-weight="bold" fill="#0f172a">MQTT: ESP32 ใช้ TCP — Web browser ใช้ WSS</text>
+  <rect x="55" y="130" width="235" height="190" rx="22" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/><text x="172" y="190" text-anchor="middle" font-family="sans-serif" font-size="28">ESP32</text><text x="172" y="240" text-anchor="middle" font-family="monospace" font-size="20">TCP :1883</text>
+  <rect x="380" y="105" width="240" height="240" rx="120" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/><text x="500" y="205" text-anchor="middle" font-family="sans-serif" font-size="27">MQTT Broker</text><text x="500" y="250" text-anchor="middle" font-family="monospace" font-size="18">broker.emqx.io</text>
+  <rect x="710" y="130" width="235" height="190" rx="22" fill="#fef3c7" stroke="#d97706" stroke-width="4"/><text x="827" y="190" text-anchor="middle" font-family="sans-serif" font-size="27">MQTTX Web</text><text x="827" y="240" text-anchor="middle" font-family="monospace" font-size="19">WSS :8084/mqtt</text>
+  <line x1="290" y1="225" x2="380" y2="225" stroke="#334155" stroke-width="7"/><polygon points="370,210 395,225 370,240" fill="#334155"/><line x1="620" y1="225" x2="710" y2="225" stroke="#334155" stroke-width="7"/><polygon points="700,210 725,225 700,240" fill="#334155"/>
+  <text x="500" y="410" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#b91c1c">Public broker: ใช้ STUDENT_ID ที่ไม่ซ้ำ และห้ามส่งข้อมูลส่วนตัวหรือรหัสผ่าน</text>
+</svg>

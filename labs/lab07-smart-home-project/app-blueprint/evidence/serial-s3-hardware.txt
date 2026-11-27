@@ -1,0 +1,227 @@
+=== Lab01 ===
+[CHIP] Model            : ESP32-S3
+[CHIP] Revision         : 2
+[CHIP] CPU cores        : 2
+[CHIP] CPU frequency    : 240 MHz
+[CHIP] Flash size       : 16 MB
+[CHIP] Free heap        : 355216 bytes
+=== Lab07 OLED ===
+[OLED] no I2C ACK at 0x3C; check wiring/address
+=== Lab07 DHT ===
+[SENSOR] DHT11 ready
+[SENSOR] อ่าน DHT11 ไม่สำเร็จ (NaN)
+[SENSOR] อ่าน DHT11 ไม่สำเร็จ (NaN)
+[SENSOR] อ่าน DHT11 ไม่สำเร็จ (NaN)
+[SENSOR] อ่าน DHT11 ไม่สำเร็จ (NaN)
+=== Lab07 Smart Home ===
+[STATE] CH1=OFF CH2=OFF publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":60,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":65,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=OFF publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":70,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":75,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=OFF publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":80,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":85,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=OFF publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":90,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":95,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=OFF publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":100,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":105,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=OFF publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":110,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":115,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=OFF publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":120,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":125,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=OFF publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":130,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":135,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=OFF publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":140,"age_s":null} publish=ok
+[STATE] CH1=ON CH2=OFF publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":145,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=OFF publish=ok/ok
+[STATE] CH1=OFF CH2=OFF publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":150,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":155,"age_s":null} publish=ok
+[STATE] CH1=ON CH2=ON publish=ok/ok
+[STATE] CH1=ON CH2=ON publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":160,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[STATE] CH1=OFF CH2=OFF publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":165,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=OFF publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":170,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":175,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=OFF publish=ok/ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":180,"age_s":null} publish=ok
+[MQTT] ignored command
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":185,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":190,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":195,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":200,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":205,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":210,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":215,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":220,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":225,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":230,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":235,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":240,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":245,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":250,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":255,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":260,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":265,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":270,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":275,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":280,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":285,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":290,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":295,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":300,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":305,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":310,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":315,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":320,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":325,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":330,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":335,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":340,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":345,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":350,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":355,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":360,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":365,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":370,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":375,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=ON publish=ok/ok
+[BOOT] ESP32-S3 DHT=4 Relay=16/17 I2C=8/9
+[OLED] no I2C ACK; continue without display
+[WIFI] IP=<redacted> RSSI=-44 dBm
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":5,"age_s":null} publish=offline
+[MQTT] connected online=ok subscribe=ok/ok
+[STATE] CH1=OFF CH2=OFF publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":10,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":15,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=OFF publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":20,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":25,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=OFF publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":30,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":35,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=OFF publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":40,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":45,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=OFF publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":50,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":55,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=OFF publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":60,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":65,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=OFF publish=ok/ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":70,"age_s":null} publish=ok
+[SENSOR] NaN; previous reading is stale
+[SENSOR] {"temp":null,"hum":null,"valid":false,"uptime":75,"age_s":null} publish=ok
+[STATE] CH1=OFF CH2=OFF publish=ok/ok

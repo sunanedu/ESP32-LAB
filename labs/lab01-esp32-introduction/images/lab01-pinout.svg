@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Pinout ESP32 DevKit V1 แบบ 30 ขา</title>
+  <desc id="desc">แผนผังขา ESP32 DevKit V1 แยกกลุ่มไฟเลี้ยง GPIO input only ADC DAC และขาที่ต้องระวัง</desc>
+  <defs><style>.t{font-family:'Segoe UI','Noto Sans Thai',sans-serif;fill:#102a43}.h{font-size:32px;font-weight:700}.p{font-size:17px;font-weight:600}.s{font-size:16px}.board{fill:#126e82;stroke:#0b4f5c;stroke-width:5}.power{fill:#e12d39}.safe{fill:#2f9e44}.warn{fill:#f0b429}.input{fill:#8e44ad}.uart{fill:#2980b9}</style></defs>
+  <rect width="1200" height="760" fill="#f5f9fc"/>
+  <text x="600" y="48" text-anchor="middle" class="t h">ESP32 DevKit V1 (30-pin) — Pinout สำหรับคอร์สนี้</text>
+  <rect x="442" y="85" width="316" height="580" rx="24" class="board"/>
+  <rect x="500" y="115" width="200" height="155" rx="8" fill="#cbd2d9" stroke="#1f2933" stroke-width="3"/>
+  <text x="600" y="175" text-anchor="middle" class="t p">ESP32-WROOM-32</text>
+  <path d="M520 235 q80 -60 160 0 M545 235 q55 -35 110 0 M572 235 q28 -15 56 0" stroke="#52606d" stroke-width="4" fill="none"/>
+  <rect x="555" y="592" width="90" height="56" rx="5" fill="#cbd2d9" stroke="#1f2933" stroke-width="3"/>
+  <text x="600" y="625" text-anchor="middle" class="t s">USB</text>
+  <g class="t p" text-anchor="end">
+    <text x="410" y="113">EN</text><text x="410" y="147">GPIO36 / VP</text><text x="410" y="181">GPIO39 / VN</text><text x="410" y="215">GPIO34</text><text x="410" y="249">GPIO35</text><text x="410" y="283">GPIO32</text><text x="410" y="317">GPIO33</text><text x="410" y="351">GPIO25 / DAC1</text><text x="410" y="385">GPIO26 / DAC2</text><text x="410" y="419">GPIO27</text><text x="410" y="453">GPIO14</text><text x="410" y="487">GPIO12 ⚠</text><text x="410" y="521">GPIO13</text><text x="410" y="555">GND</text><text x="410" y="589">VIN / 5V</text>
+  </g>
+  <g class="t p">
+    <text x="790" y="113">3V3</text><text x="790" y="147">GND</text><text x="790" y="181">GPIO15 ⚠</text><text x="790" y="215">GPIO2 ⚠ / LED</text><text x="790" y="249">GPIO4</text><text x="790" y="283">GPIO16</text><text x="790" y="317">GPIO17</text><text x="790" y="351">GPIO5 ⚠</text><text x="790" y="385">GPIO18</text><text x="790" y="419">GPIO19</text><text x="790" y="453">GPIO21 / SDA</text><text x="790" y="487">GPIO3 / RX0</text><text x="790" y="521">GPIO1 / TX0</text><text x="790" y="555">GPIO22 / SCL</text><text x="790" y="589">GPIO23</text>
+  </g>
+  <g stroke="#fff" stroke-width="2">
+    <circle cx="460" cy="108" r="10" class="warn"/><circle cx="460" cy="142" r="10" class="input"/><circle cx="460" cy="176" r="10" class="input"/><circle cx="460" cy="210" r="10" class="input"/><circle cx="460" cy="244" r="10" class="input"/><circle cx="460" cy="278" r="10" class="safe"/><circle cx="460" cy="312" r="10" class="safe"/><circle cx="460" cy="346" r="10" class="safe"/><circle cx="460" cy="380" r="10" class="safe"/><circle cx="460" cy="414" r="10" class="safe"/><circle cx="460" cy="448" r="10" class="safe"/><circle cx="460" cy="482" r="10" class="warn"/><circle cx="460" cy="516" r="10" class="safe"/><circle cx="460" cy="550" r="10" class="power"/><circle cx="460" cy="584" r="10" class="power"/>
+    <circle cx="740" cy="108" r="10" class="power"/><circle cx="740" cy="142" r="10" class="power"/><circle cx="740" cy="176" r="10" class="warn"/><circle cx="740" cy="210" r="10" class="warn"/><circle cx="740" cy="244" r="10" class="safe"/><circle cx="740" cy="278" r="10" class="safe"/><circle cx="740" cy="312" r="10" class="safe"/><circle cx="740" cy="346" r="10" class="warn"/><circle cx="740" cy="380" r="10" class="safe"/><circle cx="740" cy="414" r="10" class="safe"/><circle cx="740" cy="448" r="10" class="safe"/><circle cx="740" cy="482" r="10" class="uart"/><circle cx="740" cy="516" r="10" class="uart"/><circle cx="740" cy="550" r="10" class="safe"/><circle cx="740" cy="584" r="10" class="safe"/>
+  </g>
+  <rect x="35" y="112" width="250" height="220" rx="16" fill="#e9f2f9" stroke="#9fb3c8" stroke-width="2"/>
+  <text x="55" y="150" class="t p">ความสามารถสำคัญ</text><text x="55" y="185" class="t s">ADC1: GPIO32–39</text><text x="55" y="216" class="t s">ADC2: 0, 2, 4, 12–15, 25–27</text><text x="55" y="247" class="t s">DAC: GPIO25, GPIO26</text><text x="55" y="278" class="t s">I²C: กำหนดได้ (ใช้ 21/22)</text><text x="55" y="309" class="t s">PWM: output-capable GPIO</text>
+  <rect x="875" y="112" width="270" height="220" rx="16" fill="#fff3cd" stroke="#f0b429" stroke-width="2"/>
+  <text x="898" y="150" class="t p">ขาที่ต้องระวัง</text><text x="898" y="185" class="t s">GPIO0/2/5/12/15: strapping</text><text x="898" y="216" class="t s">GPIO6–11: เชื่อมกับ Flash</text><text x="898" y="247" class="t s">GPIO34–39: input only</text><text x="898" y="278" class="t s">ADC2: ชนกับ Wi-Fi</text><text x="898" y="309" class="t s">GPIO ทุกขา: ไม่ทน 5V</text>
+  <g class="t s"><circle cx="90" cy="685" r="10" class="power"/><text x="110" y="691">ไฟเลี้ยง/GND</text><circle cx="270" cy="685" r="10" class="safe"/><text x="290" y="691">GPIO ทั่วไป</text><circle cx="455" cy="685" r="10" class="warn"/><text x="475" y="691">ต้องระวัง</text><circle cx="625" cy="685" r="10" class="input"/><text x="645" y="691">input only</text><circle cx="805" cy="685" r="10" class="uart"/><text x="825" y="691">UART0</text></g>
+  <text x="600" y="730" text-anchor="middle" class="t s">ตรวจข้อความบนบอร์ดจริงก่อนต่อวงจร เพราะตำแหน่งขาอาจต่างกันระหว่างผู้ผลิต</text>
+</svg>

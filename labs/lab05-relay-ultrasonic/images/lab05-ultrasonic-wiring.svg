@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1150" viewBox="0 0 1600 1150" role="img">
+<title>LAB 05 | ESP32 → Ultrasonic HC-SR04</title><desc>TRIG = GPIO6 • ECHO → R1 1kΩ → จุด J → GPIO7 • จุด J → R2 2kΩ → GND</desc>
+<rect width="1600" height="1150" fill="#fff"/>
+<g font-family="Tahoma,Segoe UI,sans-serif">
+<rect x="40" y="30" width="1520" height="132" rx="18" fill="#eef5fb" stroke="none" stroke-width="2"/>
+<text x="75" y="87" font-size="36" fill="#17283f" text-anchor="start" font-weight="bold">LAB 05 | ESP32 → Ultrasonic HC-SR04</text>
+<text x="75" y="132" font-size="23" fill="#52647a" text-anchor="start" font-weight="normal">TRIG = GPIO6 • ECHO → R1 1kΩ → จุด J → GPIO7 • จุด J → R2 2kΩ → GND</text>
+<text x="65" y="1118" font-size="23" fill="#52647a" text-anchor="start" font-weight="normal">อ่านชื่อ GPIO/สกรีนบนอุปกรณ์จริง • ภาพเป็นผังการเชื่อมต่อ ไม่ใช่ตำแหน่งขาบน header</text>
+<rect x="75" y="230" width="350" height="635" rx="12" fill="#edf4fb" stroke="#bccbdb" stroke-width="2"/>
+<text x="97" y="272" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">ESP32-S3</text>
+<text x="97" y="306" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">พินตาม Lab07</text>
+<rect x="99" y="330" width="122" height="75" rx="5" fill="#c8d4df" stroke="#8c9eaf" stroke-width="2"/>
+<text x="160" y="375" font-size="21" fill="#17283f" text-anchor="middle" font-weight="normal">S3</text>
+<rect x="99" y="800" width="82" height="42" rx="4" fill="#d1dce6" stroke="#8c9eaf" stroke-width="2"/>
+<text x="140" y="828" font-size="20" fill="#17283f" text-anchor="middle" font-weight="normal">USB</text>
+<rect x="1110" y="230" width="420" height="635" rx="12" fill="#f0faf7" stroke="#bccbdb" stroke-width="2"/>
+<text x="1132" y="272" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">HC-SR04</text>
+<text x="1132" y="306" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">โมดูล Ultrasonic 5V</text>
+<text x="405" y="373" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">5V rail</text>
+<text x="1130" y="373" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">VCC</text>
+<polyline points="425,365 1110,365" fill="none" stroke="#d83a42" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="365" r="6" fill="#d83a42"/>
+<circle cx="1110" cy="365" r="6" fill="#d83a42"/>
+<text x="767.5" y="341" font-size="23" fill="#d83a42" text-anchor="middle" font-weight="normal">ไฟเลี้ยง 5V</text>
+<text x="405" y="473" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GPIO6</text>
+<text x="1130" y="473" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">TRIG</text>
+<polyline points="425,465 1110,465" fill="none" stroke="#1769cb" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="465" r="6" fill="#1769cb"/>
+<circle cx="1110" cy="465" r="6" fill="#1769cb"/>
+<text x="767.5" y="441" font-size="23" fill="#1769cb" text-anchor="middle" font-weight="normal">พัลส์สั่งวัด ≥ 10 µs</text>
+<text x="405" y="608" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GPIO7</text>
+<text x="1130" y="608" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">ECHO</text>
+<polyline points="425,600 1110,600" fill="none" stroke="#8555b5" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="600" r="6" fill="#8555b5"/>
+<circle cx="1110" cy="600" r="6" fill="#8555b5"/>
+<text x="767.5" y="576" font-size="23" fill="#8555b5" text-anchor="middle" font-weight="normal">ECHO → R1 → จุด J → GPIO7</text>
+<rect x="870" y="578" width="170" height="44" rx="3" fill="#fff9e9" stroke="#a57920" stroke-width="2"/>
+<text x="955" y="609" font-size="24" fill="#17283f" text-anchor="middle" font-weight="normal">R1 1kΩ</text>
+<polyline points="690,600 690,790" fill="none" stroke="#8555b5" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="665" y="655" width="50" height="80" rx="3" fill="#fff9e9" stroke="#a57920" stroke-width="2"/>
+<text x="740" y="708" font-size="25" fill="#17283f" text-anchor="start" font-weight="normal">R2 2kΩ</text>
+<circle cx="690" cy="600" r="8" fill="#8555b5"/>
+<text x="690" y="641" font-size="22" fill="#8555b5" text-anchor="end" font-weight="normal">จุด J</text>
+<text x="405" y="798" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GND</text>
+<text x="1130" y="798" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">GND</text>
+<polyline points="425,790 1110,790" fill="none" stroke="#293544" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="790" r="6" fill="#293544"/>
+<circle cx="1110" cy="790" r="6" fill="#293544"/>
+<circle cx="690" cy="790" r="8" fill="#293544"/>
+<rect x="65" y="945" width="1470" height="140" rx="12" fill="#f6f9fc" stroke="#dce6ef" stroke-width="2"/>
+<text x="88" y="980" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">จุด J มี 3 ทาง: ปลาย R1 + ขา GPIO7 + ปลายบน R2; ปลายล่าง R2 ต่อ GND</text>
+<text x="88" y="1016" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">V(J) = 5 × 2k / (1k + 2k) ≈ 3.3V • ห้ามต่อ ECHO 5V เข้า GPIO7 โดยตรง</text>
+<text x="88" y="1052" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">5.2 ultrasonic_read / 5.3 filter ใช้ชุดนี้; 5.4 distance_relay ใช้ร่วมกับ Relay16/17</text>
+</g></svg>

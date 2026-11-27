@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="550" viewBox="0 0 1200 550" role="img" aria-labelledby="t d">
+<title id="t">วงจร LED ภายนอก GPIO5</title><desc id="d">ต่อ GPIO5 ผ่าน R 220 โอห์มไป anode และ cathode กลับ GND ของ ESP32</desc>
+<rect width="1200" height="550" fill="white"/>
+<g font-family="Segoe UI,Noto Sans Thai,sans-serif" fill="#17202a">
+<text x="600" y="45" text-anchor="middle" font-size="29" font-weight="bold">ต่อ LED ทีละเส้น — ถอด USB ก่อนเปลี่ยนวงจร</text>
+<rect x="65" y="105" width="290" height="310" rx="18" fill="#f0fdfa" stroke="#087f8c" stroke-width="3"/>
+<text x="210" y="155" text-anchor="middle" font-size="25">ESP32-S3</text>
+<text x="210" y="195" text-anchor="middle" font-size="18">อ้างอิงชื่อขาบนสกรีน</text>
+<text x="235" y="265" font-size="23">GPIO5</text><circle cx="350" cy="260" r="9" fill="#d97706"/>
+<text x="255" y="375" font-size="23">GND</text><circle cx="350" cy="370" r="9"/>
+<path d="M359 260 H480" fill="none" stroke="#d97706" stroke-width="6"/>
+<rect x="480" y="235" width="145" height="50" fill="#fef3c7" stroke="#92400e" stroke-width="3"/>
+<text x="552" y="268" text-anchor="middle" font-size="22">R 220 Ω</text>
+<path d="M625 260 H770 V215" fill="none" stroke="#d97706" stroke-width="6"/>
+<path d="M770 215 V185 a35 35 0 0 1 70 0 V215 Z" fill="#fecaca" stroke="#b91c1c" stroke-width="3"/>
+<path d="M840 215 V370 H359" fill="none" stroke="#17202a" stroke-width="6"/>
+<text x="735" y="300" text-anchor="end" font-size="20">Anode (+)</text><text x="875" y="300" font-size="20">Cathode (−)</text>
+<text x="805" y="140" text-anchor="middle" font-size="21">LED แดง</text>
+<text x="600" y="465" text-anchor="middle" font-size="23">① GPIO5 → R → anode    ② cathode → GND</text>
+<text x="600" y="505" text-anchor="middle" font-size="19">ภาพอธิบายเส้นทางไฟ ไม่ใช่ภาพระบุตำแหน่งรู breadboard; ห้ามต่อ LED โดยไม่มี R</text>
+</g></svg>

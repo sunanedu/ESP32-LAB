@@ -1,0 +1,23 @@
+[
+  {"id":"afe7321d-9851-4f35-a707-000000000001","name":"Lab 07 · Student Monitor","isCollection":true,"parentId":null,"orderId":0},
+  {
+    "id":"afe7321d-9851-4f35-a707-000000000002",
+    "name":"ESP32 · Student Monitor","isCollection":false,
+    "parentId":"afe7321d-9851-4f35-a707-000000000001","orderId":0,
+    "clientId":"mqttx_lab07_student","clientIdWithTime":true,
+    "protocol":"mqtt","host":"broker.emqx.io","port":1883,"path":"/mqtt",
+    "mqttVersion":"3.1.1","clean":true,"keepalive":30,"connectTimeout":10,
+    "reconnect":true,"reconnectPeriod":4000,"username":"","password":"",
+    "ssl":false,"rejectUnauthorized":true,"certType":"","ca":"","cert":"","key":"",
+    "unreadMessageCount":0,"will":null,"messages":[],
+    "pushMessage":{"topic":"","qos":0,"retain":false,"payload":"","payloadType":"Plaintext"},
+    "subscriptions":[
+      {"id":"afe7321d-9851-4f35-a707-000000000011","topic":"home/REPLACE-STUDENT-ID/status","alias":"01 สถานะ · ESP32","qos":0,"disabled":false,"color":"#15803D"},
+      {"id":"afe7321d-9851-4f35-a707-000000000012","topic":"home/REPLACE-STUDENT-ID/sensor","alias":"02 Sensor · DHT11","qos":0,"disabled":false,"color":"#2563EB"},
+      {"id":"afe7321d-9851-4f35-a707-000000000013","topic":"home/REPLACE-STUDENT-ID/relay/1/set","alias":"03 คำสั่ง · CH1","qos":0,"disabled":false,"color":"#B45309"},
+      {"id":"afe7321d-9851-4f35-a707-000000000014","topic":"home/REPLACE-STUDENT-ID/relay/2/set","alias":"04 คำสั่ง · CH2","qos":0,"disabled":false,"color":"#B45309"},
+      {"id":"afe7321d-9851-4f35-a707-000000000015","topic":"home/REPLACE-STUDENT-ID/relay/1/state","alias":"05 รายงานกลับ · CH1","qos":0,"disabled":false,"color":"#7C3AED"},
+      {"id":"afe7321d-9851-4f35-a707-000000000016","topic":"home/REPLACE-STUDENT-ID/relay/2/state","alias":"06 รายงานกลับ · CH2","qos":0,"disabled":false,"color":"#7C3AED"}
+    ]
+  }
+]

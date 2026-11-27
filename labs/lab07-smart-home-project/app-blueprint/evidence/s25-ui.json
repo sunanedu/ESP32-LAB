@@ -1,0 +1,32 @@
+{
+  "scope": "Physical Samsung S25 Ultra, standalone APK 1.0.1, no app data reset",
+  "android": "17",
+  "model": "SM-S938B",
+  "results": [
+    {
+      "case": "Upgrade 1.0.0 to 1.0.1 preserves profile and broker settings; unavailable board disables controls",
+      "result": "passed",
+      "at": "2026-11-26T15:18:07.447044+00:00"
+    },
+    {
+      "case": "Samsung keyboard/form: invalid broker port rejected",
+      "result": "passed",
+      "at": "2026-11-26T15:18:19.073947+00:00"
+    },
+    {
+      "case": "Save valid broker settings and reconnect WSS",
+      "result": "passed",
+      "at": "2026-11-26T15:18:28.429960+00:00"
+    },
+    {
+      "case": "Edit ID is readonly; Back confirms discard and preserves name",
+      "result": "passed",
+      "at": "2026-11-26T15:18:47.089799+00:00"
+    },
+    {
+      "case": "Add form/keyboard works; unsaved new profile discarded without database write",
+      "result": "passed",
+      "at": "2026-11-26T15:19:07.393793+00:00"
+    }
+  ]
+}

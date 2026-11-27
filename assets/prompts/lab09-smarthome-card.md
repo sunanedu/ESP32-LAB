@@ -1,0 +1,7 @@
+# ภาพพื้นหลังการ์ด Smart Home ของ S3 HomeGuard
+
+สร้างด้วย ImageGen ภายใน Codex และใช้เป็นภาพประกอบบนการ์ดอุปกรณ์ของ Lab09
+
+```text
+Create a wide 2.3:1 ultra-clean editorial 3D illustration background for the top status card of a white-and-blue mobile smart-home app. This is the background artwork only, absolutely no text, type, letters, logos, buttons, icons, or interface elements. Premium matte architectural miniature with a compact cluster of two modern white smart homes with cobalt ceramic roof accents and a tiny off-white wind turbine tucked behind them. A few softly shaped pale blue landscaping forms ground the buildings. Tiny village composition concentrated exclusively in the upper-right 39 percent, with ample margin from the right edge and no object touching the top edge. Strictly keep the entire left 60 percent and lower quarter clean and almost white with no distinct detail, for dark foreground text and a CTA. The background is a clean cloudy gradient from pure white / icy white at left toward powder blue #D9E8FF at upper right, softly flowing into almost white again at the bottom. Contemporary editorial illustration with rounded architectural volumes, soft ambient daylight and delicate shadows, subtle desaturated blue, no dark foregrounds or noisy textures. The small houses should be distinctly readable at mobile-card size but calm, like a watermark. No frame, no border, no mockup.
+```

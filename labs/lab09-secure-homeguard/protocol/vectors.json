@@ -1,0 +1,22 @@
+{
+  "purpose": "PUBLIC TEST KEY ONLY; never provision this key",
+  "key_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+  "nonce_hex": "000000000000000000000001",
+  "aad_hex": "76317c317c30303131323233333434353536363737383839396161626263636464656566667c317c696f742f76312f30303131323233332d343435352d343637372d383839392d6161626263636464656566662f636d64",
+  "plaintext_hex": "00000000000000000000000000000000",
+  "ciphertext_hex": "15d6bffc44f4301e0e2e5139eca63af7",
+  "tag_hex": "d43e7347262aede7fd6f28ef716bda66",
+  "topic": "iot/v1/00112233-4455-4677-8899-aabbccddeeff/cmd",
+  "envelope": {
+    "v": 1,
+    "kid": 1,
+    "sid": "00112233445566778899aabbccddeeff",
+    "seq": "1",
+    "nonce": "AAAAAAAAAAAAAAAB",
+    "ct": "Fda//ET0MB4OLlE57KY69w==",
+    "tag": "1D5zRyYq7ef9byjvcWvaZg=="
+  },
+  "hkdf_rfc5869_a1_hex": "3cb25f25faacd57a90434f64d0362f2a2d2d0a90cf1a5a4c5db02d56ecc4c5bf34007208d5b887185865",
+  "session_c2d_test_hex": "f1814f7c764f4a8a66079183c106cbd8e14b7ec6326bb9a1bf1f78a9fdd754e0",
+  "session_d2c_test_hex": "f2ae199e5aa5ed5c9d985fccad4449b48810884084e8790ce337560893953bad"
+}

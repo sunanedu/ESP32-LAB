@@ -1,0 +1,41 @@
+{
+  "scope": "Android emulator + public MQTT broker + protocol simulator; not ESP32 hardware",
+  "studentId": "lab-app-0ffe4d",
+  "results": [
+    {
+      "case": "Android CRUD + WSS receive + live sensor",
+      "result": "passed",
+      "at": "2026-11-26 19:01:43"
+    },
+    {
+      "case": "App command -> public broker -> simulator -> reported state",
+      "result": "passed",
+      "at": "2026-11-26 19:01:49"
+    },
+    {
+      "case": "Edit profile saved",
+      "result": "passed",
+      "at": "2026-11-26 19:02:01"
+    },
+    {
+      "case": "Settings validation rejects invalid port",
+      "result": "passed",
+      "at": "2026-11-26 19:02:13"
+    },
+    {
+      "case": "Force-stop/reopen persists profile and relay cache",
+      "result": "passed",
+      "at": "2026-11-26 19:02:31"
+    },
+    {
+      "case": "SQLite history remains after process restart",
+      "result": "passed",
+      "at": "2026-11-26 19:02:36"
+    },
+    {
+      "case": "Offline controls disabled; cached data remains readable",
+      "result": "passed",
+      "at": "2026-11-26 19:02:47"
+    }
+  ]
+}

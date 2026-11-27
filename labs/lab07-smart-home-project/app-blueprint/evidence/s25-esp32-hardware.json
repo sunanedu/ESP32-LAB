@@ -1,0 +1,185 @@
+{
+  "scope": "Physical Samsung S25 Ultra APK1.0.1 and physical ESP32-S3; no OLED/DHT/Relay/load attached",
+  "prefix": "home/lab-s25-b884f3",
+  "results": [
+    {
+      "case": "Real board TCP MQTT -> Samsung WSS; missing DHT stays invalid, controls use board liveness",
+      "result": "passed",
+      "at": "2026-11-26T15:24:40.507610+00:00",
+      "observed": {
+        "temp": null,
+        "hum": null,
+        "valid": false,
+        "uptime": 135,
+        "age_s": null
+      }
+    },
+    {
+      "case": "App ON/OFF both channels and All Off receive real firmware reported states",
+      "result": "passed",
+      "at": "2026-11-26T15:25:09.243187+00:00",
+      "observed": [
+        {
+          "at": "2026-11-26T15:24:43.458Z",
+          "event": "message",
+          "topic": "home/lab-s25-b884f3/relay/1/set",
+          "payload": "ON",
+          "retained": false
+        },
+        {
+          "at": "2026-11-26T15:24:48.439Z",
+          "event": "message",
+          "topic": "home/lab-s25-b884f3/relay/1/set",
+          "payload": "OFF",
+          "retained": false
+        },
+        {
+          "at": "2026-11-26T15:24:53.532Z",
+          "event": "message",
+          "topic": "home/lab-s25-b884f3/relay/2/set",
+          "payload": "ON",
+          "retained": false
+        },
+        {
+          "at": "2026-11-26T15:24:58.867Z",
+          "event": "message",
+          "topic": "home/lab-s25-b884f3/relay/1/set",
+          "payload": "ON",
+          "retained": false
+        },
+        {
+          "at": "2026-11-26T15:25:03.884Z",
+          "event": "message",
+          "topic": "home/lab-s25-b884f3/relay/1/set",
+          "payload": "OFF",
+          "retained": false
+        },
+        {
+          "at": "2026-11-26T15:25:04.198Z",
+          "event": "message",
+          "topic": "home/lab-s25-b884f3/relay/2/set",
+          "payload": "OFF",
+          "retained": false
+        }
+      ]
+    },
+    {
+      "case": "Independent MQTT client command updates Samsung from actual firmware state",
+      "result": "passed",
+      "at": "2026-11-26T15:25:25.516447+00:00",
+      "observed": {
+        "at": "2026-11-26T15:25:21.778Z",
+        "event": "message",
+        "topic": "home/lab-s25-b884f3/relay/2/set",
+        "payload": "ON",
+        "retained": false
+      }
+    },
+    {
+      "case": "Firmware rejects BAD command without changing reported channel",
+      "result": "passed",
+      "at": "2026-11-26T15:26:05.472669+00:00",
+      "observed": {
+        "invalidCommand": {
+          "at": "2026-11-26T15:25:26.953Z",
+          "event": "message",
+          "topic": "home/lab-s25-b884f3/relay/2/set",
+          "payload": "BAD",
+          "retained": false
+        },
+        "stateAfter": {
+          "at": "2026-11-26T15:25:59.728Z",
+          "event": "message",
+          "topic": "home/lab-s25-b884f3/relay/2/state",
+          "payload": "ON",
+          "retained": false
+        }
+      }
+    },
+    {
+      "case": "Force-stop/reopen preserves edited profile and reported cache; no actuator replay",
+      "result": "passed",
+      "at": "2026-11-26T15:26:40.516724+00:00",
+      "observed": {
+        "commandsBefore": 8,
+        "commandsAfter": 8
+      }
+    },
+    {
+      "case": "Background/foreground reconnects without actuator commands",
+      "result": "passed",
+      "at": "2026-11-26T15:26:50.437038+00:00",
+      "observed": {
+        "commandsAfter": 8
+      }
+    },
+    {
+      "case": "Disconnected phone reads persisted SQLite sensor history/cache with disabled controls",
+      "result": "passed",
+      "at": "2026-11-26T15:28:04.313794+00:00",
+      "observed": {
+        "commandsBefore": 8,
+        "commandsAfter": 8,
+        "history": "invalid sensor records visible offline"
+      }
+    },
+    {
+      "case": "Manual WSS reconnect receives real board state without replay",
+      "result": "passed",
+      "at": "2026-11-26T15:28:17.568012+00:00",
+      "observed": {
+        "commandsBefore": 8,
+        "commandsAfter": 8
+      }
+    },
+    {
+      "case": "Board held in reset: pending command times out and preserves reported OFF",
+      "result": "passed",
+      "at": "2026-11-26T15:29:06.554012+00:00",
+      "observed": {
+        "command": {
+          "at": "2026-11-26T15:28:45.898Z",
+          "event": "message",
+          "topic": "home/lab-s25-b884f3/relay/1/set",
+          "payload": "ON",
+          "retained": false
+        },
+        "historyOutcome": "ยังไม่พบรายงานที่ตรงกัน",
+        "reported": "OFF",
+        "resetMethod": "EN held via USB-UART RTS"
+      }
+    },
+    {
+      "case": "Held reset stops MQTT heartbeat; broker LWT offline reaches Samsung and disables controls",
+      "result": "passed",
+      "at": "2026-11-26T15:29:14.315599+00:00",
+      "observed": {
+        "at": "2026-11-26T15:29:07.451Z",
+        "event": "message",
+        "topic": "home/lab-s25-b884f3/status",
+        "payload": "offline",
+        "retained": false
+      }
+    },
+    {
+      "case": "Release reset reconnects real board with both channels OFF; timed-out ON is not replayed",
+      "result": "passed",
+      "at": "2026-11-26T15:30:26.322760+00:00",
+      "observed": {
+        "status": {
+          "at": "2026-11-26T15:30:15.222Z",
+          "event": "message",
+          "topic": "home/lab-s25-b884f3/status",
+          "payload": "online",
+          "retained": false
+        },
+        "commandsBeforeReconnect": 9,
+        "commandsAfterReconnect": 9,
+        "reported": [
+          "OFF",
+          "OFF"
+        ]
+      }
+    }
+  ]
+}

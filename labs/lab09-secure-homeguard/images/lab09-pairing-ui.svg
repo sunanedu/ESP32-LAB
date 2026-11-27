@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1150" viewBox="0 0 1600 1150" role="img">
+<title>LAB 09 | เป้าหมายหน้าแอปและการจับคู่</title><desc>ภาพจำลองแนวทาง UI ไม่ใช่ภาพ Android ที่ทดสอบแล้ว • แอป starter ยังล็อก Relay</desc>
+<rect width="1600" height="1150" fill="#fff"/>
+<g font-family="Tahoma,Segoe UI,sans-serif">
+<rect x="40" y="30" width="1520" height="132" rx="18" fill="#eef5fb" stroke="none" stroke-width="2"/>
+<text x="75" y="87" font-size="36" fill="#17283f" text-anchor="start" font-weight="bold">LAB 09 | เป้าหมายหน้าแอปและการจับคู่</text>
+<text x="75" y="132" font-size="23" fill="#52647a" text-anchor="start" font-weight="normal">ภาพจำลองแนวทาง UI ไม่ใช่ภาพ Android ที่ทดสอบแล้ว • แอป starter ยังล็อก Relay</text>
+<text x="65" y="1118" font-size="23" fill="#52647a" text-anchor="start" font-weight="normal">อ่านชื่อ GPIO/สกรีนบนอุปกรณ์จริง • ภาพเป็นผังการเชื่อมต่อ ไม่ใช่ตำแหน่งขาบน header</text>
+<rect x="95" y="220" width="650" height="660" rx="12" fill="#f0faf6" stroke="#bccbdb" stroke-width="2"/>
+<text x="117" y="262" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">S3 HomeGuard</text>
+<text x="117" y="296" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">Advanced Security IoT Smart Home</text>
+<text x="125" y="370" font-size="24" fill="#17283f" text-anchor="start" font-weight="normal">Broker connected ≠ Device authenticated</text>
+<text x="125" y="455" font-size="24" fill="#17283f" text-anchor="start" font-weight="normal">Relay 1 / 2: UNKNOWN — ล็อก</text>
+<text x="125" y="540" font-size="24" fill="#17283f" text-anchor="start" font-weight="normal">วิธีที่ 1: Bluetooth LE + Security2</text>
+<text x="125" y="625" font-size="24" fill="#17283f" text-anchor="start" font-weight="normal">วิธีที่ 2: Wi-Fi SoftAP + Security2</text>
+<text x="125" y="710" font-size="24" fill="#17283f" text-anchor="start" font-weight="normal">อ่าน SRP credential จาก OLED / Serial</text>
+<text x="125" y="795" font-size="24" fill="#17283f" text-anchor="start" font-weight="normal">กรอกเองได้ ไม่บังคับสแกน QR</text>
+<rect x="805" y="220" width="680" height="660" rx="12" fill="#f6f9fc" stroke="#bccbdb" stroke-width="2"/>
+<text x="827" y="262" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">ลำดับทำงาน</text>
+<text x="827" y="296" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">ทุกวิธีใช้ physical pairing window120s</text>
+<text x="835" y="370" font-size="26" fill="#17283f" text-anchor="start" font-weight="normal">1  กดปุ่มที่บอร์ดค้าง 2 วินาที</text>
+<text x="835" y="455" font-size="26" fill="#17283f" text-anchor="start" font-weight="normal">2  เลือก BLE หรือ SoftAP ในแอป</text>
+<text x="835" y="540" font-size="26" fill="#17283f" text-anchor="start" font-weight="normal">3  ตรวจอุปกรณ์ / กรอก credential</text>
+<text x="835" y="625" font-size="26" fill="#17283f" text-anchor="start" font-weight="normal">4  Secure handshake → ส่ง config+key</text>
+<text x="835" y="710" font-size="26" fill="#17283f" text-anchor="start" font-weight="normal">5  ปิด pairing / ต่อ MQTT ผ่าน TLS</text>
+<text x="835" y="795" font-size="26" fill="#17283f" text-anchor="start" font-weight="normal">6  ยืนยัน session → จึงปลดล็อก control</text>
+<rect x="65" y="945" width="1470" height="140" rx="12" fill="#f6f9fc" stroke="#dce6ef" stroke-width="2"/>
+<text x="88" y="980" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">รหัสบนจอใน preflight เป็น DEMO เท่านั้น ยังไม่มี BLE/SoftAP endpoint หรือการส่งคีย์</text>
+<text x="88" y="1016" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">runtime จริงต้องใช้ username/password ของ Security2 ที่มี entropy สูง ไม่ใช้ PIN6หลักเป็น root</text>
+<text x="88" y="1052" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">การเปลี่ยน broker ต้องผ่าน stage/test/confirm/commitทั้งสองฝั่ง ไม่ลดระดับ TLS</text>
+</g></svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="630" viewBox="0 0 1100 630">
+  <rect width="1100" height="630" fill="#ffffff"/>
+  <defs><marker id="arrow" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto-start-reverse"><path d="M0 0L9 3.5L0 7Z" fill="#475569"/></marker></defs>
+  <g font-family="Tahoma, sans-serif" fill="#17212f" text-anchor="middle">
+    <text x="550" y="43" font-size="28" font-weight="bold">React Native + ข้อมูลในโทรศัพท์ + ESP32</text>
+    <g stroke="#94a3b8" stroke-width="2">
+      <rect x="45" y="190" width="285" height="175" rx="20" fill="#eff6ff"/>
+      <rect x="420" y="190" width="280" height="175" rx="20" fill="#f0fdf4"/>
+      <rect x="805" y="190" width="250" height="175" rx="20" fill="#eff6ff"/>
+      <rect x="45" y="440" width="285" height="115" rx="18" fill="#f8fafc"/>
+      <rect x="420" y="78" width="280" height="67" rx="14" fill="#f8fafc"/>
+      <rect x="805" y="440" width="250" height="115" rx="18" fill="#fff7ed"/>
+    </g>
+    <g font-size="23">
+      <text x="187" y="228" font-weight="bold">React Native Android</text>
+      <text x="187" y="268">Dashboard / Add / Edit</text>
+      <text x="187" y="303">Settings</text>
+      <text x="187" y="340" font-size="18">WSS :8084 /mqtt</text>
+      <text x="560" y="235" font-weight="bold">EMQX public broker</text>
+      <text x="560" y="276">broker.emqx.io</text>
+      <text x="560" y="320" font-size="18">ส่งต่อ topic / payload</text>
+      <text x="930" y="235" font-weight="bold">ESP32</text>
+      <text x="930" y="277">Arduino firmware</text>
+      <text x="930" y="321" font-size="20">TCP :1883</text>
+      <text x="187" y="478" font-weight="bold">SQLite บนโทรศัพท์</text>
+      <text x="187" y="515" font-size="18">Profiles / Settings / History</text>
+      <text x="560" y="119" font-size="21">MQTTX = client ทดสอบ</text>
+      <text x="930" y="478">Relay 2CH + OLED</text>
+      <text x="930" y="518">DHT11</text>
+    </g>
+    <g stroke="#475569" stroke-width="3" fill="none" marker-start="url(#arrow)" marker-end="url(#arrow)">
+      <path d="M340 278H408"/><path d="M712 278H792"/>
+      <path d="M187 378V427"/><path d="M560 155V179"/><path d="M930 378V427"/>
+    </g>
+    <text x="550" y="600" font-size="20">เก็บประวัติหลักในเครื่อง • MQTTX ไม่ต้องเปิดค้าง • ภาพนี้เป็นสถาปัตยกรรมที่คาดหวัง</text>
+  </g>
+</svg>

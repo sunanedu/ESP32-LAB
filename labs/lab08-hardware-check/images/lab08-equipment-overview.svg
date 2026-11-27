@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1150" viewBox="0 0 1600 1150" role="img">
+<title>LAB 08 | ชุดตรวจเช็กอุปกรณ์ 6 โมดูล</title><desc>ทดสอบทีละชุดและบันทึกผลจริงก่อนนำไปทำแล็บอื่น • พิน ESP32-S3 คงเดิม</desc>
+<rect width="1600" height="1150" fill="#fff"/>
+<g font-family="Tahoma,Segoe UI,sans-serif">
+<rect x="40" y="30" width="1520" height="132" rx="18" fill="#eef5fb" stroke="none" stroke-width="2"/>
+<text x="75" y="87" font-size="36" fill="#17283f" text-anchor="start" font-weight="bold">LAB 08 | ชุดตรวจเช็กอุปกรณ์ 6 โมดูล</text>
+<text x="75" y="132" font-size="23" fill="#52647a" text-anchor="start" font-weight="normal">ทดสอบทีละชุดและบันทึกผลจริงก่อนนำไปทำแล็บอื่น • พิน ESP32-S3 คงเดิม</text>
+<text x="65" y="1118" font-size="23" fill="#52647a" text-anchor="start" font-weight="normal">อ่านชื่อ GPIO/สกรีนบนอุปกรณ์จริง • ภาพเป็นผังการเชื่อมต่อ ไม่ใช่ตำแหน่งขาบน header</text>
+<rect x="65" y="225" width="450" height="310" rx="12" fill="#f6f9fc" stroke="#bccbdb" stroke-width="2"/>
+<text x="87" y="267" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">DHT11</text>
+<text x="87" y="301" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">DATA4 / 3V3 / GND</text>
+<rect x="100" y="335" width="380" height="115" rx="7" fill="#e4eff9" stroke="#7498b8" stroke-width="2"/>
+<text x="290" y="383" font-size="27" fill="#17283f" text-anchor="middle" font-weight="normal">DHT11</text>
+<text x="290" y="425" font-size="21" fill="#17283f" text-anchor="middle" font-weight="normal">MODULE</text>
+<text x="290" y="500" font-size="24" fill="#17283f" text-anchor="middle" font-weight="normal">อุณหภูมิ + ความชื้น</text>
+<rect x="575" y="225" width="450" height="310" rx="12" fill="#f6f9fc" stroke="#bccbdb" stroke-width="2"/>
+<text x="597" y="267" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">HC-SR04</text>
+<text x="597" y="301" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">TRIG6 / ECHO7 divider</text>
+<rect x="610" y="335" width="380" height="115" rx="7" fill="#e4eff9" stroke="#7498b8" stroke-width="2"/>
+<text x="800" y="383" font-size="27" fill="#17283f" text-anchor="middle" font-weight="normal">HC-SR04</text>
+<text x="800" y="425" font-size="21" fill="#17283f" text-anchor="middle" font-weight="normal">MODULE</text>
+<text x="800" y="500" font-size="24" fill="#17283f" text-anchor="middle" font-weight="normal">ระยะทาง + timeout</text>
+<rect x="1085" y="225" width="450" height="310" rx="12" fill="#f6f9fc" stroke="#bccbdb" stroke-width="2"/>
+<text x="1107" y="267" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">ไฟ RD / YL / GY</text>
+<text x="1107" y="301" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">10 / 11 / 12 / VCC3V3</text>
+<rect x="1120" y="335" width="380" height="115" rx="7" fill="#e4eff9" stroke="#7498b8" stroke-width="2"/>
+<text x="1310" y="383" font-size="27" fill="#17283f" text-anchor="middle" font-weight="normal">ไฟ RD / YL / GY</text>
+<text x="1310" y="425" font-size="21" fill="#17283f" text-anchor="middle" font-weight="normal">MODULE</text>
+<text x="1310" y="500" font-size="24" fill="#17283f" text-anchor="middle" font-weight="normal">ตรวจสีทีละช่อง</text>
+<rect x="65" y="590" width="450" height="310" rx="12" fill="#f6f9fc" stroke="#bccbdb" stroke-width="2"/>
+<text x="87" y="632" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">Relay 2CH</text>
+<text x="87" y="666" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">IN1=16 / IN2=17 / 5V</text>
+<rect x="100" y="700" width="380" height="115" rx="7" fill="#e4eff9" stroke="#7498b8" stroke-width="2"/>
+<text x="290" y="748" font-size="27" fill="#17283f" text-anchor="middle" font-weight="normal">Relay 2CH</text>
+<text x="290" y="790" font-size="21" fill="#17283f" text-anchor="middle" font-weight="normal">MODULE</text>
+<text x="290" y="865" font-size="24" fill="#17283f" text-anchor="middle" font-weight="normal">ตรวจเปิด–ปิดสองช่อง</text>
+<rect x="575" y="590" width="450" height="310" rx="12" fill="#f6f9fc" stroke="#bccbdb" stroke-width="2"/>
+<text x="597" y="632" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">ปุ่มโมดูล 3 พิน</text>
+<text x="597" y="666" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">OUT18 / VCC3V3 / GND</text>
+<rect x="610" y="700" width="380" height="115" rx="7" fill="#e4eff9" stroke="#7498b8" stroke-width="2"/>
+<text x="800" y="748" font-size="27" fill="#17283f" text-anchor="middle" font-weight="normal">ปุ่มโมดูล 3 พิน</text>
+<text x="800" y="790" font-size="21" fill="#17283f" text-anchor="middle" font-weight="normal">MODULE</text>
+<text x="800" y="865" font-size="24" fill="#17283f" text-anchor="middle" font-weight="normal">ตรวจ raw + การกดค้าง</text>
+<rect x="1085" y="590" width="450" height="310" rx="12" fill="#f6f9fc" stroke="#bccbdb" stroke-width="2"/>
+<text x="1107" y="632" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">OLED I2C</text>
+<text x="1107" y="666" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">SDA8 / SCL9 / 3V3 / GND</text>
+<rect x="1120" y="700" width="380" height="115" rx="7" fill="#e4eff9" stroke="#7498b8" stroke-width="2"/>
+<text x="1310" y="748" font-size="27" fill="#17283f" text-anchor="middle" font-weight="normal">OLED I2C</text>
+<text x="1310" y="790" font-size="21" fill="#17283f" text-anchor="middle" font-weight="normal">MODULE</text>
+<text x="1310" y="865" font-size="24" fill="#17283f" text-anchor="middle" font-weight="normal">ข้อความ + UI เปลี่ยนค่า</text>
+<rect x="65" y="945" width="1470" height="140" rx="12" fill="#f6f9fc" stroke="#dce6ef" stroke-width="2"/>
+<text x="88" y="980" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">ภาพอุปกรณ์เป็นสัญลักษณ์เชิงอธิบาย ไม่อ้างรูปร่าง/ตำแหน่ง header ของทุกรุ่น</text>
+<text x="88" y="1016" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">ทุกโมดูลมีภาพพินต่อพินแยกในบทเรียน; code ZIP เปิดทีละโฟลเดอร์ใน Arduino IDE</text>
+<text x="88" y="1052" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">ผล compile/ภาพจำลองไม่แทนผลวัดอุปกรณ์จริง ให้ผู้เรียนบันทึก ผ่าน/ตรวจเพิ่ม ตามใบงาน</text>
+</g></svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Arduino IDE Boards Manager</title><desc id="desc">หน้าจอจำลอง Boards Manager ค้นหา esp32 by Espressif Systems และเลือกติดตั้งเวอร์ชัน 3.x</desc>
+  <defs><style>.t{font-family:'Segoe UI','Noto Sans Thai',sans-serif;fill:#1f2933}.h{font-size:30px;font-weight:700}.m{font-size:21px}.s{font-size:17px}.ui{fill:#fff;stroke:#9fb3c8;stroke-width:2}</style></defs>
+  <rect width="1200" height="675" fill="#fff"/><text x="600" y="48" text-anchor="middle" class="t h">Boards Manager: ติดตั้ง Arduino-ESP32 core 3.x</text>
+  <rect x="95" y="80" width="1010" height="515" rx="10" class="ui"/><rect x="95" y="80" width="78" height="515" fill="#202a2f"/><circle cx="134" cy="136" r="19" fill="#008184"/><rect x="119" y="195" width="30" height="30" rx="4" fill="#cbd2d9"/><rect x="119" y="255" width="30" height="30" rx="4" fill="#cbd2d9"/>
+  <text x="205" y="130" class="t m">BOARDS MANAGER</text><rect x="205" y="155" width="850" height="48" rx="6" fill="#f5f7fa" stroke="#486581" stroke-width="2"/><text x="225" y="186" class="t m">esp32</text>
+  <rect x="205" y="235" width="850" height="245" rx="8" fill="#f5f7fa" stroke="#d9e2ec" stroke-width="2"/><rect x="230" y="268" width="92" height="92" rx="14" fill="#008184"/><text x="276" y="325" text-anchor="middle" fill="white" font-family="sans-serif" font-size="24" font-weight="700">ESP32</text><text x="350" y="285" class="t m">esp32 by Espressif Systems</text><text x="350" y="320" class="t s">Boards included: ESP32 Dev Module, ESP32-S3, ESP32-C3, ...</text><text x="350" y="355" class="t s">เลือกเวอร์ชันในสาย 3.x ที่เป็น Stable release</text>
+  <rect x="350" y="390" width="240" height="44" rx="6" class="ui"/><text x="370" y="419" class="t s">Version 3.x.x</text><rect x="865" y="390" width="155" height="44" rx="6" fill="#008184"/><text x="942" y="419" text-anchor="middle" fill="white" class="s">INSTALL</text>
+  <rect x="205" y="505" width="850" height="50" rx="7" fill="#d9f2ec"/><text x="630" y="538" text-anchor="middle" class="t s">รอจนแสดง Installed หรือมีปุ่ม Remove • เปิด IDE ใหม่หากรายการบอร์ดยังไม่ปรากฏ</text>
+  <text x="600" y="640" text-anchor="middle" class="t m">ค้นคำว่า “esp32” และตรวจชื่อผู้พัฒนาให้เป็น Espressif Systems</text>
+</svg>

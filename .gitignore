@@ -1,0 +1,43 @@
+# ไฟล์อ้างอิงที่ไม่ได้รับอนุญาตให้นำขึ้น repository
+_reference/
+
+# ข้อมูลลับของแต่ละผู้เรียน
+**/secrets.h
+
+# เฉลยสำหรับผู้สอน เก็บไว้เฉพาะเครื่องและห้ามเผยแพร่บน GitHub
+answer-keys/
+
+# ไฟล์จากระบบปฏิบัติการและผลลัพธ์การ build
+.DS_Store
+build/
+**/build/
+
+# React Native / Expo / Android artifacts และข้อมูล local
+**/node_modules/
+**/.expo/
+**/dist/
+**/coverage/
+**/.gradle/
+**/android/
+**/ios/
+**/.env
+**/.env.*
+!**/.env.example
+**/*.db
+**/*.db-shm
+**/*.db-wal
+**/*.jks
+**/*.keystore
+**/local.properties
+**/*.apk
+**/*.aab
+**/__pycache__/
+**/*.pyc
+
+# Local Expo module source must be versioned; generated app android remains ignored.
+!labs/lab09-secure-homeguard/app-blueprint/mobile/modules/homeguard-security/android/
+!labs/lab09-secure-homeguard/app-blueprint/mobile/modules/homeguard-security/android/**
+labs/lab09-secure-homeguard/app-blueprint/mobile/modules/homeguard-security/android/build/
+
+# อนุญาต APK พื้นฐานเพียงไฟล์เดียวสำหรับทดลอง
+!downloads/esp32-smart-home-preview-1.0.1.apk

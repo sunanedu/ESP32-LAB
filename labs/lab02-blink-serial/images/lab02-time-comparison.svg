@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="490" viewBox="0 0 1200 490" role="img" aria-labelledby="t d">
+<title id="t">เปรียบเทียบ delay กับ millis</title><desc id="d">delay ขวางคำสั่งถัดไปใน loop แต่การตรวจ millis ปล่อยให้ loop ทำงานอื่นระหว่างรอ</desc>
+<rect width="1200" height="490" fill="white"/>
+<g font-family="Segoe UI,Noto Sans Thai,sans-serif" fill="#17202a">
+<text x="600" y="45" text-anchor="middle" font-size="28" font-weight="bold">LED เปลี่ยนทุก 500 ms เหมือนกัน — งานระหว่างรอต่างกัน</text>
+<g font-size="20" text-anchor="middle"><text x="290" y="95">0 ms</text><text x="650" y="95">500 ms</text><text x="1010" y="95">1000 ms</text></g>
+<text x="45" y="160" font-size="23">delay()</text>
+<rect x="290" y="120" width="360" height="72" fill="#fee2e2" stroke="#b91c1c" stroke-width="2"/>
+<rect x="650" y="120" width="360" height="72" fill="#fee2e2" stroke="#b91c1c" stroke-width="2"/>
+<g font-size="19" text-anchor="middle"><text x="470" y="163">รอใน delay(500)</text><text x="830" y="163">รอใน delay(500)</text></g>
+<text x="290" y="225" font-size="18">ON</text><text x="650" y="225" font-size="18">OFF</text><text x="1010" y="225" font-size="18">ON</text>
+<text x="45" y="300" font-size="23">millis()</text><line x1="290" y1="290" x2="1040" y2="290" stroke="#64748b" stroke-width="3"/>
+<g fill="#0f766e"><circle cx="290" cy="290" r="9"/><circle cx="350" cy="290" r="5"/><circle cx="410" cy="290" r="5"/><circle cx="470" cy="290" r="5"/><circle cx="530" cy="290" r="5"/><circle cx="590" cy="290" r="5"/><circle cx="650" cy="290" r="9"/><circle cx="710" cy="290" r="5"/><circle cx="770" cy="290" r="5"/><circle cx="830" cy="290" r="5"/><circle cx="890" cy="290" r="5"/><circle cx="950" cy="290" r="5"/><circle cx="1010" cy="290" r="9"/></g>
+<text x="640" y="345" text-anchor="middle" font-size="20">ตรวจเวลา → ยังไม่ครบก็ทำงานอื่น → กลับมาตรวจใหม่</text>
+<text x="600" y="415" text-anchor="middle" font-size="21">จุดแสดงแนวคิด ไม่ใช่ความถี่ loop ที่วัดจริง</text>
+<text x="600" y="455" text-anchor="middle" font-size="18">ถ้างานอื่น block ยาว การใช้ millis อย่างเดียวก็ยังทำให้ตอบสนองช้าได้</text>
+</g></svg>

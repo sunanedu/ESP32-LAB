@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">ESP32 DevKit V1 และสาย USB data</title>
+  <desc id="desc">ภาพอุปกรณ์หลักของ Lab 01 แสดงบอร์ด ESP32 DevKit V1 ต่อกับคอมพิวเตอร์ด้วยสาย USB data</desc>
+  <defs>
+    <style>
+      .t{font-family:'Segoe UI','Noto Sans Thai',sans-serif;fill:#102a43}.h{font-size:34px;font-weight:700}.m{font-size:24px}.s{font-size:18px}.label{font-size:20px;font-weight:600}.line{stroke:#486581;stroke-width:3;fill:none}.pin{fill:#f7c948}.board{fill:#126e82;stroke:#0b4f5c;stroke-width:5}
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#486581"/></marker>
+  </defs>
+  <rect width="1200" height="675" fill="#f5f9fc"/>
+  <text x="600" y="58" text-anchor="middle" class="t h">อุปกรณ์หลักสำหรับ Lab 01</text>
+  <rect x="55" y="125" width="360" height="390" rx="18" fill="#d9e2ec" stroke="#829ab1" stroke-width="4"/>
+  <rect x="85" y="165" width="300" height="220" rx="8" fill="#243b53"/>
+  <rect x="105" y="185" width="260" height="180" rx="4" fill="#b9e6f2"/>
+  <text x="235" y="275" text-anchor="middle" class="t m">Windows 10/11</text>
+  <text x="235" y="310" text-anchor="middle" class="t s">Arduino IDE 2.x</text>
+  <rect x="180" y="385" width="110" height="22" rx="4" fill="#829ab1"/>
+  <rect x="115" y="425" width="240" height="18" rx="7" fill="#9fb3c8"/>
+  <text x="235" y="485" text-anchor="middle" class="t label">คอมพิวเตอร์</text>
+  <path d="M415 330 C520 330, 500 470, 625 470" stroke="#1f2933" stroke-width="16" fill="none"/>
+  <path d="M415 330 C520 330, 500 470, 625 470" stroke="#52606d" stroke-width="7" fill="none"/>
+  <rect x="398" y="312" width="44" height="36" rx="4" fill="#7b8794"/>
+  <rect x="610" y="452" width="50" height="36" rx="5" fill="#7b8794"/>
+  <text x="520" y="405" text-anchor="middle" class="t label">สาย USB data</text>
+  <text x="520" y="435" text-anchor="middle" class="t s">ส่งไฟเลี้ยง + ข้อมูล</text>
+  <rect x="665" y="112" width="310" height="465" rx="24" class="board"/>
+  <rect x="725" y="155" width="190" height="180" rx="8" fill="#cbd2d9" stroke="#1f2933" stroke-width="4"/>
+  <path d="M750 175 h140 M750 190 h140 M750 205 h140 M750 220 h140" stroke="#7b8794" stroke-width="3"/>
+  <text x="820" y="255" text-anchor="middle" class="t label">ESP32-WROOM-32</text>
+  <path d="M745 300 q75 -55 150 0 M770 300 q50 -32 100 0 M795 300 q25 -14 50 0" stroke="#52606d" stroke-width="5" fill="none"/>
+  <rect x="775" y="508" width="90" height="55" rx="6" fill="#cbd2d9" stroke="#1f2933" stroke-width="4"/>
+  <rect x="795" y="525" width="50" height="38" fill="#52606d"/>
+  <g class="pin">
+    <circle cx="688" cy="150" r="7"/><circle cx="688" cy="180" r="7"/><circle cx="688" cy="210" r="7"/><circle cx="688" cy="240" r="7"/><circle cx="688" cy="270" r="7"/><circle cx="688" cy="300" r="7"/><circle cx="688" cy="330" r="7"/><circle cx="688" cy="360" r="7"/><circle cx="688" cy="390" r="7"/><circle cx="688" cy="420" r="7"/><circle cx="688" cy="450" r="7"/><circle cx="688" cy="480" r="7"/><circle cx="688" cy="510" r="7"/><circle cx="688" cy="540" r="7"/>
+    <circle cx="952" cy="150" r="7"/><circle cx="952" cy="180" r="7"/><circle cx="952" cy="210" r="7"/><circle cx="952" cy="240" r="7"/><circle cx="952" cy="270" r="7"/><circle cx="952" cy="300" r="7"/><circle cx="952" cy="330" r="7"/><circle cx="952" cy="360" r="7"/><circle cx="952" cy="390" r="7"/><circle cx="952" cy="420" r="7"/><circle cx="952" cy="450" r="7"/><circle cx="952" cy="480" r="7"/><circle cx="952" cy="510" r="7"/><circle cx="952" cy="540" r="7"/>
+  </g>
+  <rect x="700" y="365" width="58" height="34" rx="6" fill="#e12d39"/><text x="729" y="388" text-anchor="middle" fill="white" class="s">EN</text>
+  <rect x="882" y="365" width="58" height="34" rx="6" fill="#f0b429"/><text x="911" y="388" text-anchor="middle" class="t s">BOOT</text>
+  <path d="M975 220 L1080 160" class="line" marker-end="url(#arrow)"/><text x="1090" y="150" class="t label">บอร์ดพัฒนา</text><text x="1090" y="180" class="t s">ESP32 DevKit V1</text>
+  <path d="M905 535 L1080 535" class="line" marker-end="url(#arrow)"/><text x="1090" y="525" class="t label">พอร์ต USB</text><text x="1090" y="555" class="t s">ไฟเลี้ยง/อัปโหลด</text>
+  <rect x="60" y="610" width="1080" height="42" rx="10" fill="#d9f2ec"/><text x="600" y="639" text-anchor="middle" class="t label">ข้อสำคัญ: สายชาร์จอย่างเดียวจ่ายไฟได้ แต่ไม่มีสายสัญญาณสำหรับอัปโหลดโค้ด</text>
+</svg>

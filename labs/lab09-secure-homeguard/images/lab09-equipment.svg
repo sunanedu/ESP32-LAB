@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1150" viewBox="0 0 1600 1150" role="img">
+<title>LAB 09 | S3 HomeGuard — ชุดอุปกรณ์</title><desc>ใช้ชุดเดิมจาก Lab07 เพิ่มปุ่มเปิดหน้าต่างจับคู่ ไม่ย้ายสาย และใช้ OLED SH1106G</desc>
+<rect width="1600" height="1150" fill="#fff"/>
+<g font-family="Tahoma,Segoe UI,sans-serif">
+<rect x="40" y="30" width="1520" height="132" rx="18" fill="#eef5fb" stroke="none" stroke-width="2"/>
+<text x="75" y="87" font-size="36" fill="#17283f" text-anchor="start" font-weight="bold">LAB 09 | S3 HomeGuard — ชุดอุปกรณ์</text>
+<text x="75" y="132" font-size="23" fill="#52647a" text-anchor="start" font-weight="normal">ใช้ชุดเดิมจาก Lab07 เพิ่มปุ่มเปิดหน้าต่างจับคู่ ไม่ย้ายสาย และใช้ OLED SH1106G</text>
+<text x="65" y="1118" font-size="23" fill="#52647a" text-anchor="start" font-weight="normal">อ่านชื่อ GPIO/สกรีนบนอุปกรณ์จริง • ภาพเป็นผังการเชื่อมต่อ ไม่ใช่ตำแหน่งขาบน header</text>
+<rect x="65" y="250" width="450" height="590" rx="12" fill="#f0faf6" stroke="#bccbdb" stroke-width="2"/>
+<text x="87" y="292" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">Android / React Native</text>
+<text x="87" y="326" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">สัญลักษณ์อธิบาย ไม่ใช่ภาพถ่าย</text>
+<text x="93" y="430" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">แอปชื่อ S3 HomeGuard</text>
+<text x="93" y="515" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">Native Kotlin: keys + crypto</text>
+<text x="93" y="600" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">BLE หรือ Wi-Fi SoftAP</text>
+<text x="93" y="685" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">กรอกรหัสเอง / QR optional</text>
+<rect x="575" y="250" width="450" height="590" rx="12" fill="#f0faf6" stroke="#bccbdb" stroke-width="2"/>
+<text x="597" y="292" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">ESP32-S3 + OLED</text>
+<text x="597" y="326" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">สัญลักษณ์อธิบาย ไม่ใช่ภาพถ่าย</text>
+<text x="603" y="430" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">SH1106G SDA8 / SCL9</text>
+<text x="603" y="515" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">DHT11 DATA4</text>
+<text x="603" y="600" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">ปุ่มโมดูล OUT18</text>
+<text x="603" y="685" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">Relay IN1=16 / IN2=17</text>
+<rect x="1085" y="250" width="450" height="590" rx="12" fill="#f0faf6" stroke="#bccbdb" stroke-width="2"/>
+<text x="1107" y="292" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">MQTT broker + MQTTX</text>
+<text x="1107" y="326" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">สัญลักษณ์อธิบาย ไม่ใช่ภาพถ่าย</text>
+<text x="1113" y="430" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">TLS / AES-GCM payload</text>
+<text x="1113" y="515" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">EMQX public: ทดลองเท่านั้น</text>
+<text x="1113" y="600" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">เปลี่ยน private/custom ได้</text>
+<text x="1113" y="685" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">MQTTX ดู envelope ไม่ถือ key</text>
+<rect x="65" y="945" width="1470" height="140" rx="12" fill="#f6f9fc" stroke="#dce6ef" stroke-width="2"/>
+<text x="88" y="980" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">อุปกรณ์: USB data, บอร์ด S3, OLED128×64, DHT11, Relay2CH, ปุ่ม3พิน, โทรศัพท์ Android</text>
+<text x="88" y="1016" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">จับคู่ครั้งแรกต้องอยู่ใกล้และกดปุ่มที่บอร์ด; มีสอง transport ไม่บังคับกล้อง</text>
+<text x="88" y="1052" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">ไม่มีเว็บกลาง; คีย์อยู่ที่โทรศัพท์/ESP ส่วน broker ส่งต่อข้อความเข้ารหัส</text>
+</g></svg>

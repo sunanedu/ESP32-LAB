@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="t d">
+<title id="t">ตัวอย่าง raw bounce และการยืนยัน stable หลัง 40 ms</title><desc id="d">raw เปลี่ยนที่ 100 104 108 ms; ยืนยัน stable LOW ที่ 148 ms หลังคงที่ 40 ms</desc><rect width="1200" height="540" fill="white"/>
+<g font-family="Segoe UI,Noto Sans Thai,sans-serif" fill="#17202a">
+<text x="600" y="42" text-anchor="middle" font-size="29" font-weight="bold">เริ่มจับเวลาใหม่ทุกครั้งที่ raw เปลี่ยน</text>
+<text x="45" y="145" font-size="23">raw</text><text x="40" y="325" font-size="23">stable</text>
+<g font-size="17"><text x="105" y="110">HIGH</text><text x="105" y="205">LOW</text><text x="105" y="285">HIGH</text><text x="105" y="380">LOW</text></g>
+<polyline points="175,110 270,110 270,200 302,200 302,110 334,110 334,200 1080,200" fill="none" stroke="#dc2626" stroke-width="5"/>
+<polyline points="175,285 654,285 654,375 1080,375" fill="none" stroke="#0f766e" stroke-width="6"/>
+<g stroke="#64748b" stroke-width="2" stroke-dasharray="6 6"><line x1="334" y1="75" x2="334" y2="405"/><line x1="654" y1="75" x2="654" y2="405"/></g>
+<path d="M334 240 H654" stroke="#2563eb" stroke-width="4"/>
+<text x="494" y="230" text-anchor="middle" font-size="20">คงที่ 40 ms</text>
+<g font-size="18" text-anchor="middle"><text x="270" y="430">100</text><text x="302" y="458">104</text><text x="334" y="430">108</text><text x="654" y="430">148 ms</text></g>
+<text x="830" y="322" font-size="20">ที่ 148 ms: ยืนยัน LOW</text><text x="830" y="353" font-size="20">เกิด pressed event 1 รอบ</text>
+<text x="600" y="510" text-anchor="middle" font-size="19">เวลาเป็นตัวอย่างเพื่อไล่โค้ด ไม่ใช่ค่าที่วัดจากสวิตช์จริงทุกตัว</text>
+</g></svg>

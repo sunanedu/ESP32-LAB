@@ -1,0 +1,90 @@
+[
+  {
+    "id": "e74b5b9c-a5f0-4cb6-a5d2-77454e7e0700",
+    "name": "Lab 07 · Smart Home",
+    "isCollection": true,
+    "parentId": null,
+    "orderId": 0
+  },
+  {
+    "id": "e74b5b9c-a5f0-4cb6-a5d2-77454e7e0701",
+    "name": "ESP32-S3 · S25 Monitor",
+    "isCollection": false,
+    "parentId": "e74b5b9c-a5f0-4cb6-a5d2-77454e7e0700",
+    "orderId": 0,
+    "clientId": "mqttx_lab07_watch_77454e7e",
+    "clientIdWithTime": true,
+    "protocol": "mqtt",
+    "host": "broker.emqx.io",
+    "port": 1883,
+    "path": "/mqtt",
+    "mqttVersion": "3.1.1",
+    "clean": true,
+    "keepalive": 30,
+    "connectTimeout": 10,
+    "reconnect": true,
+    "reconnectPeriod": 4000,
+    "username": "",
+    "password": "",
+    "ssl": false,
+    "rejectUnauthorized": true,
+    "certType": "",
+    "ca": "",
+    "cert": "",
+    "key": "",
+    "unreadMessageCount": 0,
+    "will": null,
+    "messages": [],
+    "pushMessage": { "topic": "", "qos": 0, "retain": false, "payload": "", "payloadType": "Plaintext" },
+    "subscriptions": [
+      {
+        "id": "e74b5b9c-a5f0-4cb6-a5d2-77454e7e0711",
+        "topic": "home/lab-s25-b884f3/status",
+        "alias": "01 สถานะ · ESP32",
+        "qos": 0,
+        "disabled": false,
+        "color": "#15803D"
+      },
+      {
+        "id": "e74b5b9c-a5f0-4cb6-a5d2-77454e7e0712",
+        "topic": "home/lab-s25-b884f3/sensor",
+        "alias": "02 Sensor · DHT11",
+        "qos": 0,
+        "disabled": false,
+        "color": "#2563EB"
+      },
+      {
+        "id": "e74b5b9c-a5f0-4cb6-a5d2-77454e7e0713",
+        "topic": "home/lab-s25-b884f3/relay/1/set",
+        "alias": "03 คำสั่ง · CH1",
+        "qos": 0,
+        "disabled": false,
+        "color": "#B45309"
+      },
+      {
+        "id": "e74b5b9c-a5f0-4cb6-a5d2-77454e7e0714",
+        "topic": "home/lab-s25-b884f3/relay/2/set",
+        "alias": "04 คำสั่ง · CH2",
+        "qos": 0,
+        "disabled": false,
+        "color": "#B45309"
+      },
+      {
+        "id": "e74b5b9c-a5f0-4cb6-a5d2-77454e7e0715",
+        "topic": "home/lab-s25-b884f3/relay/1/state",
+        "alias": "05 รายงานกลับ · CH1",
+        "qos": 0,
+        "disabled": false,
+        "color": "#7C3AED"
+      },
+      {
+        "id": "e74b5b9c-a5f0-4cb6-a5d2-77454e7e0716",
+        "topic": "home/lab-s25-b884f3/relay/2/state",
+        "alias": "06 รายงานกลับ · CH2",
+        "qos": 0,
+        "disabled": false,
+        "color": "#7C3AED"
+      }
+    ]
+  }
+]

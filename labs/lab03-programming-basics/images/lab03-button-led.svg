@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="t d">
+<title id="t">วงจรปุ่มและ LED ของ Lab 03</title><desc id="d">GPIO18 ต่อสวิตช์ลง GND และ GPIO16 ผ่าน R 220 โอห์มและ LED กลับ GND</desc><rect width="1200" height="600" fill="white"/>
+<g font-family="Segoe UI,Noto Sans Thai,sans-serif" fill="#17202a">
+<text x="600" y="45" text-anchor="middle" font-size="29" font-weight="bold">ปุ่มเป็น input • LED เป็น output • ใช้ GND ร่วมกัน</text>
+<rect x="70" y="105" width="300" height="360" rx="18" fill="#f0fdfa" stroke="#087f8c" stroke-width="3"/>
+<text x="220" y="160" text-anchor="middle" font-size="27">ESP32 DevKit</text><text x="220" y="202" text-anchor="middle" font-size="20">INPUT_PULLUP ที่ GPIO18</text>
+<text x="235" y="270" font-size="22">GPIO18</text><text x="235" y="350" font-size="22">GPIO16</text><text x="265" y="430" font-size="22">GND</text>
+<path d="M370 265 H650 M740 265 H1050 V425 H370" fill="none" stroke="#334155" stroke-width="5"/>
+<circle cx="650" cy="265" r="7"/><circle cx="740" cy="265" r="7"/><line x1="650" y1="265" x2="730" y2="225" stroke="#d97706" stroke-width="5"/>
+<text x="700" y="185" text-anchor="middle" font-size="21">สวิตช์ momentary</text><text x="850" y="235" font-size="19">กดแล้วต่อถึง GND</text>
+<path d="M370 345 H470 M600 345 H760" fill="none" stroke="#d97706" stroke-width="5"/>
+<rect x="470" y="320" width="130" height="50" fill="#fef3c7" stroke="#92400e" stroke-width="3"/><text x="535" y="354" text-anchor="middle" font-size="21">R 220 Ω</text>
+<rect x="760" y="320" width="150" height="50" rx="22" fill="#fecaca" stroke="#b91c1c" stroke-width="3"/><text x="835" y="352" text-anchor="middle" font-size="21">LED + / −</text>
+<path d="M910 345 H1050" fill="none" stroke="#334155" stroke-width="5"/>
+<circle cx="1050" cy="345" r="7"/><text x="750" y="395" font-size="17">anode รับจาก R; cathode กลับ GND</text>
+<text x="600" y="520" text-anchor="middle" font-size="23">ไม่ต่อปุ่มกับ 5V • ไม่ต่อ LED โดยไม่มี R</text>
+<text x="600" y="563" text-anchor="middle" font-size="19">ภาพแสดงการเชื่อมต่อ ไม่ได้บอกตำแหน่งรู breadboard หรือขาบอร์ดของทุกรุ่น</text>
+</g></svg>

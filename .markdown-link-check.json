@@ -1,0 +1,17 @@
+{
+  "retryOn429": true,
+  "retryCount": 3,
+  "fallbackRetryDelay": "3s",
+  "aliveStatusCodes": [200, 206],
+  "ignorePatterns": [
+    {
+      "pattern": "^https://www\\.silabs\\.com/software-and-tools/usb-to-uart-bridge-vcp-drivers$"
+    },
+    {
+      "pattern": "^https://mqttx\\.app/web-client$"
+    },
+    {
+      "pattern": "^https://www\\.wch-ic\\.com/downloads/CH341SER_EXE\\.html$"
+    }
+  ]
+}

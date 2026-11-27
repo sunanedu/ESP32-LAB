@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1150" viewBox="0 0 1600 1150" role="img">
+<title>LAB 09 | ESP32-S3 — ต่อพินเดิม</title><desc>OLED SH1106G / DHT11 / Relay2CH / ปุ่มโมดูล • หมายเลข GPIO ไม่ใช่ตำแหน่ง header</desc>
+<rect width="1600" height="1150" fill="#fff"/>
+<g font-family="Tahoma,Segoe UI,sans-serif">
+<rect x="40" y="30" width="1520" height="132" rx="18" fill="#eef5fb" stroke="none" stroke-width="2"/>
+<text x="75" y="87" font-size="36" fill="#17283f" text-anchor="start" font-weight="bold">LAB 09 | ESP32-S3 — ต่อพินเดิม</text>
+<text x="75" y="132" font-size="23" fill="#52647a" text-anchor="start" font-weight="normal">OLED SH1106G / DHT11 / Relay2CH / ปุ่มโมดูล • หมายเลข GPIO ไม่ใช่ตำแหน่ง header</text>
+<text x="65" y="1118" font-size="23" fill="#52647a" text-anchor="start" font-weight="normal">อ่านชื่อ GPIO/สกรีนบนอุปกรณ์จริง • ภาพเป็นผังการเชื่อมต่อ ไม่ใช่ตำแหน่งขาบน header</text>
+<rect x="75" y="230" width="350" height="650" rx="12" fill="#edf4fb" stroke="#bccbdb" stroke-width="2"/>
+<text x="97" y="272" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">ESP32-S3</text>
+<text x="97" y="306" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">พินตาม Lab07</text>
+<rect x="99" y="330" width="122" height="75" rx="5" fill="#c8d4df" stroke="#8c9eaf" stroke-width="2"/>
+<text x="160" y="375" font-size="21" fill="#17283f" text-anchor="middle" font-weight="normal">S3</text>
+<rect x="99" y="815" width="82" height="42" rx="4" fill="#d1dce6" stroke="#8c9eaf" stroke-width="2"/>
+<text x="140" y="843" font-size="20" fill="#17283f" text-anchor="middle" font-weight="normal">USB</text>
+<rect x="1095" y="230" width="435" height="650" rx="12" fill="#f6f9fc" stroke="#bccbdb" stroke-width="2"/>
+<text x="1117" y="272" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">พินปลายทาง</text>
+<text x="1117" y="306" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">ตรวจสกรีนแต่ละโมดูลก่อนต่อ</text>
+<text x="405" y="358" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">3V3</text>
+<text x="1115" y="358" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">OLED VCC</text>
+<polyline points="425,350 1095,350" fill="none" stroke="#d76a12" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="350" r="6" fill="#d76a12"/>
+<circle cx="1095" cy="350" r="6" fill="#d76a12"/>
+<text x="405" y="404" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GND</text>
+<text x="1115" y="404" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">OLED GND</text>
+<polyline points="425,396 1095,396" fill="none" stroke="#293544" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="396" r="6" fill="#293544"/>
+<circle cx="1095" cy="396" r="6" fill="#293544"/>
+<text x="405" y="450" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GPIO8</text>
+<text x="1115" y="450" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">OLED SDA</text>
+<polyline points="425,442 1095,442" fill="none" stroke="#1769cb" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="442" r="6" fill="#1769cb"/>
+<circle cx="1095" cy="442" r="6" fill="#1769cb"/>
+<text x="405" y="496" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GPIO9</text>
+<text x="1115" y="496" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">OLED SCL</text>
+<polyline points="425,488 1095,488" fill="none" stroke="#8555b5" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="488" r="6" fill="#8555b5"/>
+<circle cx="1095" cy="488" r="6" fill="#8555b5"/>
+<text x="405" y="542" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GPIO4</text>
+<text x="1115" y="542" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">DHT11 DATA</text>
+<polyline points="425,534 1095,534" fill="none" stroke="#1769cb" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="534" r="6" fill="#1769cb"/>
+<circle cx="1095" cy="534" r="6" fill="#1769cb"/>
+<text x="405" y="588" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GPIO16</text>
+<text x="1115" y="588" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">Relay IN1</text>
+<polyline points="425,580 1095,580" fill="none" stroke="#008575" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="580" r="6" fill="#008575"/>
+<circle cx="1095" cy="580" r="6" fill="#008575"/>
+<text x="405" y="634" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GPIO17</text>
+<text x="1115" y="634" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">Relay IN2</text>
+<polyline points="425,626 1095,626" fill="none" stroke="#8555b5" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="626" r="6" fill="#8555b5"/>
+<circle cx="1095" cy="626" r="6" fill="#8555b5"/>
+<text x="405" y="680" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GPIO18</text>
+<text x="1115" y="680" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">Button OUT</text>
+<polyline points="425,672 1095,672" fill="none" stroke="#1769cb" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="672" r="6" fill="#1769cb"/>
+<circle cx="1095" cy="672" r="6" fill="#1769cb"/>
+<text x="405" y="726" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">3V3</text>
+<text x="1115" y="726" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">DHT / Button VCC</text>
+<polyline points="425,718 1095,718" fill="none" stroke="#d76a12" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="718" r="6" fill="#d76a12"/>
+<circle cx="1095" cy="718" r="6" fill="#d76a12"/>
+<text x="405" y="772" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GND</text>
+<text x="1115" y="772" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">DHT/Button/Relay GND</text>
+<polyline points="425,764 1095,764" fill="none" stroke="#293544" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="764" r="6" fill="#293544"/>
+<circle cx="1095" cy="764" r="6" fill="#293544"/>
+<text x="405" y="818" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">5V supply</text>
+<text x="1115" y="818" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">Relay VCC</text>
+<polyline points="425,810 1095,810" fill="none" stroke="#d83a42" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="810" r="6" fill="#d83a42"/>
+<circle cx="1095" cy="810" r="6" fill="#d83a42"/>
+<rect x="65" y="945" width="1470" height="140" rx="12" fill="#f6f9fc" stroke="#dce6ef" stroke-width="2"/>
+<text x="88" y="980" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">ปุ่มมี R bias ในโมดูล ใช้ INPUT; DHT DATA ต้องมี pull-up10kΩ ถ้าโมดูลไม่มี</text>
+<text x="88" y="1016" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">Relay ต้องรับลอจิก3.3V ต่อ GND ร่วมและใช้แหล่ง5Vตามคู่มือ ไม่ป้อนไฟย้อนบอร์ด USB</text>
+<text x="88" y="1052" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">preflight คง Relay OFF; ถอดโหลดก่อนทดสอบ ใช้เฉพาะโหลด DC แรงดันต่ำ ห้าม AC220V</text>
+</g></svg>

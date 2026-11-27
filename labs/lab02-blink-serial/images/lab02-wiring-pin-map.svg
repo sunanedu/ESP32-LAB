@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1150" viewBox="0 0 1600 1150" role="img">
+<title>LAB 02 | ESP32 → LED</title><desc>วงจรภายนอก: GPIO5 → R 220Ω → LED ขา A (+) และ LED ขา K (−) → GND</desc>
+<rect width="1600" height="1150" fill="#fff"/>
+<g font-family="Tahoma,Segoe UI,sans-serif">
+<rect x="40" y="30" width="1520" height="132" rx="18" fill="#eef5fb" stroke="none" stroke-width="2"/>
+<text x="75" y="87" font-size="36" fill="#17283f" text-anchor="start" font-weight="bold">LAB 02 | ESP32 → LED</text>
+<text x="75" y="132" font-size="23" fill="#52647a" text-anchor="start" font-weight="normal">วงจรภายนอก: GPIO5 → R 220Ω → LED ขา A (+) และ LED ขา K (−) → GND</text>
+<text x="65" y="1118" font-size="23" fill="#52647a" text-anchor="start" font-weight="normal">อ่านชื่อ GPIO/สกรีนบนอุปกรณ์จริง • ภาพเป็นผังการเชื่อมต่อ ไม่ใช่ตำแหน่งขาบน header</text>
+<rect x="75" y="245" width="350" height="600" rx="12" fill="#edf4fb" stroke="#bccbdb" stroke-width="2"/>
+<text x="97" y="287" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">ESP32-S3</text>
+<text x="97" y="321" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">พินตาม Lab07</text>
+<rect x="99" y="345" width="122" height="75" rx="5" fill="#c8d4df" stroke="#8c9eaf" stroke-width="2"/>
+<text x="160" y="390" font-size="21" fill="#17283f" text-anchor="middle" font-weight="normal">S3</text>
+<rect x="99" y="780" width="82" height="42" rx="4" fill="#d1dce6" stroke="#8c9eaf" stroke-width="2"/>
+<text x="140" y="808" font-size="20" fill="#17283f" text-anchor="middle" font-weight="normal">USB</text>
+<rect x="1095" y="245" width="430" height="600" rx="12" fill="#fff8f1" stroke="#bccbdb" stroke-width="2"/>
+<text x="1117" y="287" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">LED ภายนอก</text>
+<text x="1117" y="321" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">R 220Ω ต่ออนุกรมเสมอ</text>
+<text x="405" y="448" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GPIO5</text>
+<text x="1115" y="448" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">A / Anode (+)</text>
+<polyline points="425,440 1095,440" fill="none" stroke="#1769cb" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="440" r="6" fill="#1769cb"/>
+<circle cx="1095" cy="440" r="6" fill="#1769cb"/>
+<rect x="680.0" y="418" width="160" height="44" rx="3" fill="#fff9e9" stroke="#a57920" stroke-width="2"/>
+<text x="760.0" y="449" font-size="25" fill="#17283f" text-anchor="middle" font-weight="normal">220Ω</text>
+<text x="760.0" y="400" font-size="23" fill="#1769cb" text-anchor="middle" font-weight="normal">สายสัญญาณ → ตัวต้านทาน → LED</text>
+<text x="405" y="643" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GND</text>
+<text x="1115" y="643" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">K / Cathode (−)</text>
+<polyline points="425,635 1095,635" fill="none" stroke="#293544" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="635" r="6" fill="#293544"/>
+<circle cx="1095" cy="635" r="6" fill="#293544"/>
+<text x="760.0" y="611" font-size="23" fill="#293544" text-anchor="middle" font-weight="normal">สายกลับ GND</text>
+<polyline points="1380,440 1420,440 1420,505" fill="none" stroke="#1769cb" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1393 555 V526 a27 27 0 0 1 54 0 V555 Z" fill="#ec6570" stroke="#ad2834" stroke-width="3"/>
+<polyline points="1420,555 1420,635 1385,635" fill="none" stroke="#293544" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1140" y="735" font-size="22" fill="#17283f" text-anchor="start" font-weight="normal">A = ขายาว • K = ขาสั้น/ด้านแบน</text>
+<text x="1140" y="778" font-size="22" fill="#17283f" text-anchor="start" font-weight="normal">ถ้าตัดขาแล้ว ให้ตรวจขั้วก่อนต่อ</text>
+<rect x="65" y="945" width="1470" height="140" rx="12" fill="#f6f9fc" stroke="#dce6ef" stroke-width="2"/>
+<text x="88" y="980" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">2.1 / 2.4 / 2.5 / 2.6: ใช้ LED ภายนอก GPIO5 ตัวเดิมทุกการทดลอง</text>
+<text x="88" y="1016" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">โค้ดเลือกพินตาม target: S3 = GPIO5; WROOM = GPIO16 ไม่ต้องแก้ LED_PIN เอง</text>
+<text x="88" y="1052" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">2.2 Serial / 2.3 Log: ใช้ USB data เท่านั้น • ถอดไฟก่อนย้ายสาย</text>
+</g></svg>

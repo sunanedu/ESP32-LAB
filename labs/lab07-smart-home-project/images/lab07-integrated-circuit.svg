@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="770" viewBox="0 0 1100 770">
+  <rect width="1100" height="770" fill="#ffffff"/>
+  <g font-family="Tahoma, sans-serif" fill="#0f172a">
+    <text x="550" y="40" text-anchor="middle" font-size="28" font-weight="bold">Smart Home: ผังสายตามชื่อขา + โหลด LED แบบ DC</text>
+    <text x="550" y="75" text-anchor="middle" font-size="19">ตรวจสกรีนโมดูลจริงก่อนต่อ ไม่ใช่ผังตำแหน่งขาบน Breadboard</text>
+    <g stroke-width="3">
+      <rect x="405" y="125" width="290" height="300" rx="20" fill="#dbeafe" stroke="#2563eb"/>
+      <rect x="40" y="125" width="255" height="165" rx="16" fill="#f1f5f9" stroke="#475569"/>
+      <rect x="40" y="350" width="255" height="145" rx="16" fill="#dcfce7" stroke="#16a34a"/>
+      <rect x="805" y="125" width="255" height="300" rx="16" fill="#fef3c7" stroke="#d97706"/>
+    </g>
+    <g font-size="22">
+      <text x="550" y="165" text-anchor="middle" font-weight="bold">ESP32 DevKit</text>
+      <text x="430" y="215">GPIO21 = SDA</text><text x="430" y="255">GPIO22 = SCL</text>
+      <text x="430" y="315">GPIO4 = DATA</text><text x="430" y="365">GPIO26 = IN1</text><text x="430" y="400">GPIO27 = IN2</text>
+      <text x="167" y="160" text-anchor="middle" font-weight="bold">OLED SSD1306</text>
+      <text x="60" y="200">VCC→3V3, GND→GND</text><text x="60" y="240">SDA→21, SCL→22</text><text x="60" y="273">I2C 0x3C (ตรวจจริง)</text>
+      <text x="167" y="385" text-anchor="middle" font-weight="bold">DHT11 (3.3V)</text>
+      <text x="60" y="423">DATA→4, VCC→3V3</text><text x="60" y="456">GND→GND</text><text x="60" y="484" font-size="17">sensor เปล่า: DATA–10kΩ–3V3</text>
+      <text x="932" y="165" text-anchor="middle" font-weight="bold">Relay 2CH</text>
+      <text x="825" y="208">VCC→5V, GND ร่วม</text><text x="825" y="250">IN1→26, IN2→27</text>
+      <text x="825" y="295">input ต้องรับ 3.3V ได้</text><text x="825" y="330">ห้าม pull-up IN ไป 5V</text>
+      <text x="825" y="370">COM / NO = ไฟโหลด</text><text x="825" y="405">ไม่ต่อโหลดผ่าน GPIO</text>
+    </g>
+    <g fill="none" stroke-width="3">
+      <path d="M295 225H350V215H405" stroke="#7c3aed"/>
+      <path d="M295 250H375V255H405" stroke="#0891b2"/>
+      <path d="M295 420H345V315H405" stroke="#16a34a"/>
+      <path d="M695 365H750V245H805" stroke="#d97706"/>
+      <path d="M695 400H775V270H805" stroke="#d97706"/>
+    </g>
+    <text x="700" y="475" text-anchor="middle" font-size="20">GND: ESP32 + OLED + DHT + ด้านควบคุม Relay ต่อร่วมกัน</text>
+    <text x="550" y="515" text-anchor="middle" font-size="21" font-weight="bold">โหลดตัวอย่างหนึ่งช่อง: ต่อผ่าน COM และ NO ของช่องนั้น</text>
+    <g stroke="#334155" stroke-width="3" fill="none">
+      <path d="M80 600H300M450 600H540M650 600H750M835 600H1010"/>
+      <circle cx="300" cy="600" r="6"/><circle cx="450" cy="600" r="6"/>
+      <path d="M306 595L425 565"/>
+      <rect x="540" y="582" width="110" height="36"/>
+      <path d="M750 582L790 600L750 618Z M798 582V618 M798 600H835"/>
+    </g>
+    <g font-size="20" text-anchor="middle">
+      <text x="100" y="568" fill="#dc2626">+5V โหลด</text><text x="300" y="642">COM</text><text x="450" y="642">NO</text>
+      <text x="595" y="642">R 220Ω</text><text x="775" y="558">LED</text><text x="775" y="642">anode → cathode</text>
+      <text x="990" y="568">ขั้วลบโหลด</text>
+      <text x="550" y="699">หน้าสัมผัสปิดเมื่อ Relay ON → กระแสไหลผ่าน R และ LED</text>
+      <text x="550" y="741" fill="#b91c1c" font-weight="bold">ถอดไฟก่อนแก้สาย • ใช้ DC แรงดันต่ำเท่านั้น • ห้ามใช้ AC 220V</text>
+    </g>
+  </g>
+</svg>

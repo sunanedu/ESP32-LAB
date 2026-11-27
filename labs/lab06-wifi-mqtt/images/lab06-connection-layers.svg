@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="570" viewBox="0 0 1100 570">
+  <rect width="1100" height="570" fill="#ffffff"/>
+  <g font-family="Tahoma, sans-serif" fill="#0f172a">
+    <text x="550" y="48" text-anchor="middle" font-size="28" font-weight="bold">หาข้อผิดพลาดทีละชั้น ก่อนแก้โค้ด LED</text>
+    <g stroke="#94a3b8" stroke-width="2">
+      <rect x="50" y="90" width="1000" height="75" rx="12" fill="#eff6ff"/>
+      <rect x="50" y="185" width="1000" height="75" rx="12" fill="#eff6ff"/>
+      <rect x="50" y="280" width="1000" height="75" rx="12" fill="#f0fdf4"/>
+      <rect x="50" y="375" width="1000" height="75" rx="12" fill="#f0fdf4"/>
+    </g>
+    <g font-size="22">
+      <text x="75" y="120" font-weight="bold">1  Wi-Fi / IP</text><text x="370" y="120">SSID, password, 2.4 GHz</text><text x="370" y="149">WL_CONNECTED + IP address</text>
+      <text x="75" y="215" font-weight="bold">2  Internet / TCP</text><text x="370" y="215">DNS → broker.emqx.io</text><text x="370" y="244">ESP32: 1883 | Browser: WSS 8084 /mqtt</text>
+      <text x="75" y="310" font-weight="bold">3  MQTT session</text><text x="370" y="310">Client ID ไม่ซ้ำ + CONNECT สำเร็จ</text><text x="370" y="339">mqtt.loop() + reconnect + subscribe ใหม่</text>
+      <text x="75" y="405" font-weight="bold">4  Topic / payload</text><text x="370" y="405">prefix ตรงกัน + topic ตัวพิมพ์ตรงกัน</text><text x="370" y="434">cmd/led: on → Serial → state/led: on</text>
+    </g>
+    <text x="550" y="505" text-anchor="middle" font-size="22">ผ่านชั้นหนึ่งแล้ว ค่อยตรวจชั้นถัดไปและบันทึกหลักฐาน</text>
+    <text x="550" y="540" text-anchor="middle" font-size="19" fill="#b91c1c">publish=ok ยังไม่ยืนยันผู้รับ — ต้องดูข้อความฝั่ง MQTTX ด้วย</text>
+  </g>
+</svg>

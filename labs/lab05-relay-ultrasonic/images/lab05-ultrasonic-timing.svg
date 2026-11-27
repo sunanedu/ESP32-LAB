@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430">
+  <rect width="900" height="430" fill="#fff"/>
+  <text x="450" y="42" text-anchor="middle" font-family="sans-serif" font-size="28" font-weight="bold" fill="#0f172a">HC-SR04 Timing และผลลัพธ์ระบบ</text>
+  <g font-family="sans-serif" font-size="21" fill="#0f172a"><text x="45" y="115">TRIG</text><text x="45" y="220">ECHO</text><text x="45" y="335">Relay</text></g>
+  <polyline points="130,130 230,130 230,85 300,85 300,130 835,130" fill="none" stroke="#2563eb" stroke-width="6"/><text x="265" y="72" text-anchor="middle" font-family="sans-serif" font-size="18">10 µs</text>
+  <polyline points="130,235 350,235 350,185 690,185 690,235 835,235" fill="none" stroke="#16a34a" stroke-width="6"/><line x1="350" y1="165" x2="690" y2="165" stroke="#64748b" stroke-width="2"/><text x="520" y="153" text-anchor="middle" font-family="sans-serif" font-size="18">duration_us</text>
+  <polyline points="130,350 470,350 470,300 700,300 700,350 835,350" fill="none" stroke="#dc2626" stroke-width="6"/><text x="585" y="288" text-anchor="middle" font-family="sans-serif" font-size="18">ON เมื่อเข้าเขตใกล้</text>
+  <text x="450" y="405" text-anchor="middle" font-family="monospace" font-size="22" fill="#334155">distance_cm = duration_us × 0.0343 ÷ 2</text>
+</svg>

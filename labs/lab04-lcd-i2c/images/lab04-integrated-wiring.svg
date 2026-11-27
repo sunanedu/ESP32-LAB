@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1400" viewBox="0 0 1600 1400" role="img">
+<title>LAB 04 | รวม OLED + ปุ่มโมดูล + ไฟ RD/YL/GY</title><desc>ESP32-S3 ตาม Lab07 • ใช้ไฟ 3.3V • พินสัญญาณไม่ชน HC-SR04 / Relay / DHT11 ของแล็บอื่น</desc>
+<rect width="1600" height="1400" fill="#fff"/>
+<g font-family="Tahoma,Segoe UI,sans-serif">
+<rect x="40" y="30" width="1520" height="132" rx="18" fill="#eef5fb" stroke="none" stroke-width="2"/>
+<text x="75" y="87" font-size="36" fill="#17283f" text-anchor="start" font-weight="bold">LAB 04 | รวม OLED + ปุ่มโมดูล + ไฟ RD/YL/GY</text>
+<text x="75" y="132" font-size="23" fill="#52647a" text-anchor="start" font-weight="normal">ESP32-S3 ตาม Lab07 • ใช้ไฟ 3.3V • พินสัญญาณไม่ชน HC-SR04 / Relay / DHT11 ของแล็บอื่น</text>
+<text x="65" y="1368" font-size="23" fill="#52647a" text-anchor="start" font-weight="normal">อ่านชื่อ GPIO/สกรีนบนอุปกรณ์จริง • ภาพเป็นผังการเชื่อมต่อ ไม่ใช่ตำแหน่งขาบน header</text>
+<rect x="75" y="220" width="350" height="945" rx="12" fill="#edf4fb" stroke="#bccbdb" stroke-width="2"/>
+<text x="97" y="262" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">ESP32-S3</text>
+<text x="97" y="296" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">พินตาม Lab07</text>
+<rect x="99" y="320" width="122" height="75" rx="5" fill="#c8d4df" stroke="#8c9eaf" stroke-width="2"/>
+<text x="160" y="365" font-size="21" fill="#17283f" text-anchor="middle" font-weight="normal">S3</text>
+<rect x="99" y="1100" width="82" height="42" rx="4" fill="#d1dce6" stroke="#8c9eaf" stroke-width="2"/>
+<text x="140" y="1128" font-size="20" fill="#17283f" text-anchor="middle" font-weight="normal">USB</text>
+<rect x="1095" y="220" width="435" height="320" rx="12" fill="#effaf7" stroke="#bccbdb" stroke-width="2"/>
+<text x="1117" y="262" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">OLED I2C</text>
+<text x="1117" y="296" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">SSD1306 เป็น baseline</text>
+<rect x="1095" y="570" width="435" height="250" rx="12" fill="#eef7ff" stroke="#bccbdb" stroke-width="2"/>
+<text x="1117" y="612" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">ปุ่ม 3 พิน</text>
+<text x="1117" y="646" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">มี R bias ในตัว</text>
+<rect x="1095" y="850" width="435" height="315" rx="12" fill="#fff8f1" stroke="#bccbdb" stroke-width="2"/>
+<text x="1117" y="892" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">ไฟสามสี 8 mm</text>
+<text x="1117" y="926" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">เลือกรุ่นมี R จำกัดกระแสในตัว</text>
+<text x="405" y="348" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">3V3</text>
+<text x="1115" y="348" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">VCC</text>
+<polyline points="425,340 1095,340" fill="none" stroke="#d76a12" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="340" r="6" fill="#d76a12"/>
+<circle cx="1095" cy="340" r="6" fill="#d76a12"/>
+<text x="405" y="408" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GND</text>
+<text x="1115" y="408" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">GND</text>
+<polyline points="425,400 1095,400" fill="none" stroke="#293544" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="400" r="6" fill="#293544"/>
+<circle cx="1095" cy="400" r="6" fill="#293544"/>
+<text x="405" y="468" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GPIO8</text>
+<text x="1115" y="468" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">SDA</text>
+<polyline points="425,460 1095,460" fill="none" stroke="#1769cb" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="460" r="6" fill="#1769cb"/>
+<circle cx="1095" cy="460" r="6" fill="#1769cb"/>
+<text x="405" y="528" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GPIO9</text>
+<text x="1115" y="528" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">SCL</text>
+<polyline points="425,520 1095,520" fill="none" stroke="#008575" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="520" r="6" fill="#008575"/>
+<circle cx="1095" cy="520" r="6" fill="#008575"/>
+<text x="405" y="678" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GND</text>
+<text x="1115" y="678" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">GND</text>
+<polyline points="425,670 1095,670" fill="none" stroke="#293544" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="670" r="6" fill="#293544"/>
+<circle cx="1095" cy="670" r="6" fill="#293544"/>
+<text x="405" y="738" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">3V3</text>
+<text x="1115" y="738" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">VCC</text>
+<polyline points="425,730 1095,730" fill="none" stroke="#d76a12" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="730" r="6" fill="#d76a12"/>
+<circle cx="1095" cy="730" r="6" fill="#d76a12"/>
+<text x="405" y="798" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GPIO18</text>
+<text x="1115" y="798" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">OUT</text>
+<polyline points="425,790 1095,790" fill="none" stroke="#8555b5" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="790" r="6" fill="#8555b5"/>
+<circle cx="1095" cy="790" r="6" fill="#8555b5"/>
+<text x="405" y="968" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">3V3</text>
+<text x="1115" y="968" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">VCC</text>
+<polyline points="425,960 1095,960" fill="none" stroke="#d76a12" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="960" r="6" fill="#d76a12"/>
+<circle cx="1095" cy="960" r="6" fill="#d76a12"/>
+<text x="405" y="1028" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GPIO10</text>
+<text x="1115" y="1028" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">RD (แดง)</text>
+<polyline points="425,1020 1095,1020" fill="none" stroke="#d83a42" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="1020" r="6" fill="#d83a42"/>
+<circle cx="1095" cy="1020" r="6" fill="#d83a42"/>
+<text x="405" y="1088" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GPIO11</text>
+<text x="1115" y="1088" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">YL (เหลือง)</text>
+<polyline points="425,1080 1095,1080" fill="none" stroke="#a47e00" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="1080" r="6" fill="#a47e00"/>
+<circle cx="1095" cy="1080" r="6" fill="#a47e00"/>
+<text x="405" y="1148" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GPIO12</text>
+<text x="1115" y="1148" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">GY (เขียว)</text>
+<polyline points="425,1140 1095,1140" fill="none" stroke="#008575" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="1140" r="6" fill="#008575"/>
+<circle cx="1095" cy="1140" r="6" fill="#008575"/>
+<rect x="65" y="1200" width="1470" height="140" rx="12" fill="#f6f9fc" stroke="#dce6ef" stroke-width="2"/>
+<text x="88" y="1235" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">4.5 button+OLED: ใช้จอและปุ่ม • 4.6 รวมระบบ: ใช้ครบสามโมดูลตามรูปนี้</text>
+<text x="88" y="1271" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">3V3/GND ที่เขียนซ้ำหมายถึงแบ่งจากจุดเดียวกันผ่านราง Breadboard ไม่ใช่ต้องมีหลายพิน</text>
+<text x="88" y="1307" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">คง OLED8/9 ไปถึง Lab07; ไม่ชน Relay16/17 • ขาที่สเก็ตช์ไม่ได้กำหนดอาจลอย</text>
+</g></svg>

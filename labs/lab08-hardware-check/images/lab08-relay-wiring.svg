@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1150" viewBox="0 0 1600 1150" role="img">
+<title>LAB 08.4 | ESP32 → Relay 2CH → โหลด LED DC</title><desc>ใช้โมดูล Relay 5V ที่ input รองรับ 3.3V และไม่ดึง IN ไป 5V • ห้ามใช้ไฟ AC 220V</desc>
+<rect width="1600" height="1150" fill="#fff"/>
+<g font-family="Tahoma,Segoe UI,sans-serif">
+<rect x="40" y="30" width="1520" height="132" rx="18" fill="#eef5fb" stroke="none" stroke-width="2"/>
+<text x="75" y="87" font-size="36" fill="#17283f" text-anchor="start" font-weight="bold">LAB 08.4 | ESP32 → Relay 2CH → โหลด LED DC</text>
+<text x="75" y="132" font-size="23" fill="#52647a" text-anchor="start" font-weight="normal">ใช้โมดูล Relay 5V ที่ input รองรับ 3.3V และไม่ดึง IN ไป 5V • ห้ามใช้ไฟ AC 220V</text>
+<text x="65" y="1118" font-size="23" fill="#52647a" text-anchor="start" font-weight="normal">อ่านชื่อ GPIO/สกรีนบนอุปกรณ์จริง • ภาพเป็นผังการเชื่อมต่อ ไม่ใช่ตำแหน่งขาบน header</text>
+<rect x="75" y="230" width="350" height="395" rx="12" fill="#edf4fb" stroke="#bccbdb" stroke-width="2"/>
+<text x="97" y="272" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">ESP32-S3</text>
+<text x="97" y="306" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">พินตาม Lab07</text>
+<rect x="99" y="330" width="122" height="75" rx="5" fill="#c8d4df" stroke="#8c9eaf" stroke-width="2"/>
+<text x="160" y="375" font-size="21" fill="#17283f" text-anchor="middle" font-weight="normal">S3</text>
+<rect x="99" y="560" width="82" height="42" rx="4" fill="#d1dce6" stroke="#8c9eaf" stroke-width="2"/>
+<text x="140" y="588" font-size="20" fill="#17283f" text-anchor="middle" font-weight="normal">USB</text>
+<rect x="1095" y="230" width="435" height="395" rx="12" fill="#f1f7ff" stroke="#bccbdb" stroke-width="2"/>
+<text x="1117" y="272" font-size="28" fill="#17283f" text-anchor="start" font-weight="bold">Relay 2CH</text>
+<text x="1117" y="306" font-size="21" fill="#52647a" text-anchor="start" font-weight="normal">ตัวอย่าง active LOW</text>
+<text x="405" y="388" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GPIO16</text>
+<text x="1115" y="388" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">IN1</text>
+<polyline points="425,380 1095,380" fill="none" stroke="#1769cb" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="380" r="6" fill="#1769cb"/>
+<circle cx="1095" cy="380" r="6" fill="#1769cb"/>
+<text x="760.0" y="356" font-size="23" fill="#1769cb" text-anchor="middle" font-weight="normal">สัญญาณควบคุม CH1</text>
+<text x="405" y="483" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GPIO17</text>
+<text x="1115" y="483" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">IN2</text>
+<polyline points="425,475 1095,475" fill="none" stroke="#008575" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="475" r="6" fill="#008575"/>
+<circle cx="1095" cy="475" r="6" fill="#008575"/>
+<text x="760.0" y="451" font-size="23" fill="#008575" text-anchor="middle" font-weight="normal">สัญญาณควบคุม CH2</text>
+<text x="405" y="578" font-size="26" fill="#17283f" text-anchor="end" font-weight="bold">GND</text>
+<text x="1115" y="578" font-size="26" fill="#17283f" text-anchor="start" font-weight="bold">GND</text>
+<polyline points="425,570 1095,570" fill="none" stroke="#293544" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425" cy="570" r="6" fill="#293544"/>
+<circle cx="1095" cy="570" r="6" fill="#293544"/>
+<text x="760.0" y="546" font-size="23" fill="#293544" text-anchor="middle" font-weight="normal">ต่อ GND ร่วมกับแหล่งจ่ายโมดูล</text>
+<rect x="65" y="665" width="1470" height="105" rx="12" fill="#fff5ee" stroke="#bccbdb" stroke-width="2"/>
+<text x="90" y="704" font-size="24" fill="#17283f" text-anchor="start" font-weight="normal">ไฟโมดูล: แหล่งจ่าย 5V (+) → Relay VCC | แหล่งจ่าย (−) → Relay GND และ ESP32 GND</text>
+<text x="90" y="747" font-size="24" fill="#d83a42" text-anchor="start" font-weight="normal">ESP32 รับไฟจาก USB; ไม่ต่อแหล่ง 5V ภายนอกเข้าขา 5V ของบอร์ดซ้ำขณะเสียบ USB</text>
+<rect x="65" y="800" width="1470" height="110" rx="12" fill="#f0faf7" stroke="#bccbdb" stroke-width="2"/>
+<text x="90" y="833" font-size="23" fill="#d83a42" text-anchor="start" font-weight="normal">+5V DC</text>
+<text x="365" y="833" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">COM1</text>
+<text x="600" y="833" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">NO1</text>
+<polyline points="90,855 400,855 560,829" fill="none" stroke="#d83a42" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="400" cy="855" r="6" fill="#d83a42"/>
+<circle cx="620" cy="855" r="6" fill="#d83a42"/>
+<polyline points="620,855 815,855" fill="none" stroke="#d83a42" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="815" y="836" width="140" height="38" rx="3" fill="#fff9e9" stroke="#a57920" stroke-width="2"/>
+<text x="885" y="863" font-size="23" fill="#17283f" text-anchor="middle" font-weight="normal">R220Ω</text>
+<polyline points="955,855 1025,855" fill="none" stroke="#d83a42" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1030" y="863" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">A (+) LED K (−)</text>
+<polyline points="1230,855 1350,855" fill="none" stroke="#293544" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1370" y="863" font-size="23" fill="#293544" text-anchor="start" font-weight="normal">DC (−)</text>
+<text x="90" y="898" font-size="21" fill="#17283f" text-anchor="start" font-weight="normal">ภาพแสดงหน้าสัมผัสขณะ OFF: COM1 ยังไม่ถึง NO1 • NC1 เว้นว่าง • CH2 ใช้ COM2/NO2 และ LED+R อีกชุด</text>
+<rect x="65" y="945" width="1470" height="140" rx="12" fill="#f6f9fc" stroke="#dce6ef" stroke-width="2"/>
+<text x="88" y="980" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">ทดสอบ OFF/OFF → ON/OFF → OFF/ON → ON/ON ทุก 2 วินาที แล้ววนกลับ</text>
+<text x="88" y="1016" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">5V สำหรับ coil ต้องมีกระแสพอ; JD-VCC/jumper และขั้ว COM/NO/NC ตรวจตามคู่มือโมดูลจริง</text>
+<text x="88" y="1052" font-size="23" fill="#17283f" text-anchor="start" font-weight="normal">COM/NO/NC เป็นหน้าสัมผัสโหลด แยกจาก VCC/GND/IN; ห้ามใช้เป็นขาจ่ายไฟให้ ESP32</text>
+</g></svg>

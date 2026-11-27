@@ -1,0 +1,95 @@
+{
+  "capture_date": "2026-11-27",
+  "timezone": "Asia/Bangkok",
+  "phone": {
+    "model": "Samsung S25 Ultra / SM-S938B",
+    "android": "17",
+    "api": 37,
+    "app_package": "com.esp32lab.smarthome",
+    "app_version": "1.0.1",
+    "version_code": 2
+  },
+  "monitor": {
+    "application": "MQTTX Desktop",
+    "version": "1.13.3",
+    "broker": "broker.emqx.io",
+    "port": 1883,
+    "mqtt_version": "3.1.1",
+    "subscription_count": 6,
+    "category_colours": [
+      "#15803D",
+      "#2563EB",
+      "#B45309",
+      "#7C3AED"
+    ]
+  },
+  "hardware": {
+    "board": "ESP32-S3",
+    "modules_connected": [],
+    "namespace": "home/lab-s25-b884f3"
+  },
+  "scope": "Real UI and live received telemetry after one board reset. No firmware flash, profile edits, or new phone ON/OFF command test in this capture session.",
+  "timestamp_note": "file_saved_at is the recorded file modification time; MQTTX packet timestamps inside the image are message receipt times.",
+  "images": [
+    {
+      "file": "lab07-final-add.png",
+      "width_px": 1440,
+      "height_px": 3120,
+      "bytes": 238743,
+      "sha256": "56b3107f4ff325d54d8681fd08893a68b169526e5cd069ffdaa4d57389141325",
+      "file_saved_at": "2026-11-27T06:07:22+07:00",
+      "capture_method": "adb shell screencap -p, adb pull, original PNG",
+      "pixels_edited": false
+    },
+    {
+      "file": "lab07-final-dashboard.png",
+      "width_px": 1440,
+      "height_px": 3120,
+      "bytes": 278735,
+      "sha256": "0e2bcf220f0408ad56bae113b1ffe4d7122f38914294977ebd5e82aef7f9237e",
+      "file_saved_at": "2026-11-27T06:07:10+07:00",
+      "capture_method": "adb shell screencap -p, adb pull, original PNG",
+      "pixels_edited": false
+    },
+    {
+      "file": "lab07-final-edit-details.png",
+      "width_px": 1440,
+      "height_px": 3120,
+      "bytes": 232177,
+      "sha256": "511f331acc98c29501ebd72e0bf58fd2057475824d39150eeb9dcdb434d5dee5",
+      "file_saved_at": "2026-11-27T06:08:01+07:00",
+      "capture_method": "adb shell screencap -p, adb pull, original PNG",
+      "pixels_edited": false
+    },
+    {
+      "file": "lab07-final-edit.png",
+      "width_px": 1440,
+      "height_px": 3120,
+      "bytes": 240662,
+      "sha256": "1994dbe2e6bb0dcd19a602bcbe528a60143a0926041b83bef93002eff291e646",
+      "file_saved_at": "2026-11-27T06:07:44+07:00",
+      "capture_method": "adb shell screencap -p, adb pull, original PNG",
+      "pixels_edited": false
+    },
+    {
+      "file": "lab07-final-mqttx-overview.jpg",
+      "width_px": 2560,
+      "height_px": 1552,
+      "bytes": 173867,
+      "sha256": "96a656b234e078bb6d5d8859e67eb373acefc8547f0d36b7e71043f737b77bab",
+      "file_saved_at": "2026-11-27T06:06:22+07:00",
+      "capture_method": "Windows.Graphics.Capture via computer-use, original returned JPEG",
+      "pixels_edited": false
+    },
+    {
+      "file": "lab07-final-settings.png",
+      "width_px": 1440,
+      "height_px": 3120,
+      "bytes": 236767,
+      "sha256": "e3d433d0463be2a5d335628028ab7329317633efbac01fc694da694f961305d5",
+      "file_saved_at": "2026-11-27T06:06:58+07:00",
+      "capture_method": "adb shell screencap -p, adb pull, original PNG",
+      "pixels_edited": false
+    }
+  ]
+}
